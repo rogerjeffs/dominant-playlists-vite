@@ -14,9 +14,9 @@ function AppProvider({ children }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
   const [{ data, loading, error }] = useAxios("/data/list_data.txt");
-  const lists = strToObj(data);
+  const lists = strToObj(data); //strToObj not needed for jsons
 
-  if (loading)
+  if (loading || !lists)
     return (
       <appContext.Provider
         value={{
@@ -27,6 +27,7 @@ function AppProvider({ children }) {
         {children}
       </appContext.Provider>
     );
+  // Only continue when we have lists from the API-fetch
   const flattenedList = Object.entries(lists).flatMap(
     ([chapterId, chapter]) => {
       return Object.entries(chapter.sections).flatMap(

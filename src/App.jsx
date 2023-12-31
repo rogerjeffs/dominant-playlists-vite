@@ -8,7 +8,7 @@ function App() {
   const { lists, loading, error, isPlayingAudio, defaultChapterId } =
     useCtxtData();
 
-  if (loading) return <Audio color='blue' />;
+  if (loading || !lists) return <Audio color='blue' />;
   return (
     <div id='wrapper'>
       <div id='content'>
