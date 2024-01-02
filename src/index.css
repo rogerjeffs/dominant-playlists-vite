@@ -51,6 +51,9 @@ body,
 .section-name {
   cursor: pointer;
 }
+.section-active {
+  padding: 2px 0px 4px 12px;
+}
 .song {
   display: flex;
   justify-content: space-between;
@@ -117,4 +120,10 @@ body,
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.chevron-right {
+  background-image: url("svg/chevron-right.svg");
+}
+.chevron-down {
+  background-image: url("svg/chevron-down.svg");
 }

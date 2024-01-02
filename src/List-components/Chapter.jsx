@@ -12,7 +12,7 @@ function Chapter({ id, chapter }) {
       id={"chapter-" + id}>
       <div style={{ display: "flex", minHeight: 0 }}>
         <div style={{ flex: 1 }}>
-          <h4 className='chapter-name' onClick={() => setIsOpen(!isOpen)}>
+          <h4 className={"chapter-name "} onClick={() => setIsOpen(!isOpen)}>
             {chapter.name}
           </h4>
           <div
