@@ -143,8 +143,9 @@ body,
   margin-right: 6px;
   /* margin-top: 2px; */
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+  transform: rotate(-90deg);
 }
 
 .chevron-open {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
