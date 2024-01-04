@@ -68,6 +68,7 @@ body,
   padding: 1px; */
 }
 .section-active {
+  --dummy-style: foo;
   /* padding: 8px 0px 8px 0px; */
 }
 .song {
