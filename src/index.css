@@ -40,6 +40,13 @@ body,
 }
 .chapter-name {
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 4px 0px 0px 6px;
+}
+.chapter-name-open {
+  border-bottom: solid 2px;
 }
 .chapter-name:hover {
   background: #f7f7ff;
@@ -50,9 +57,18 @@ body,
 }
 .section-name {
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 0px 6px;
+}
+.section-name-active {
+  cursor: pointer;
+  /* font-weight: 400;
+  font-size: larger;
+  padding: 1px; */
 }
 .section-active {
-  padding: 2px 0px 4px 12px;
+  /* padding: 8px 0px 8px 0px; */
 }
 .song {
   display: flex;
@@ -68,6 +84,7 @@ body,
 }
 .song-name {
   --dummy-style: foo;
+  padding-left: 8px;
   /* dynamically assigned */
 }
 .song-link {
@@ -121,9 +138,13 @@ body,
   width: 100%;
   position: absolute;
 }
-.chevron-right {
-  background-image: url("svg/chevron-right.svg");
+.chevron {
+  flex-shrink: 0;
+  margin-right: 6px;
+  /* margin-top: 2px; */
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
 }
-.chevron-down {
-  background-image: url("svg/chevron-down.svg");
+
+.chevron-open {
+  transform: rotate(180deg);
 }
