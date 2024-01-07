@@ -1,25 +1,37 @@
-import { useState } from "react";
 import Section from "./Section";
 import { useCtxtData } from "../contexts/appContext";
+import { useEffect, useRef, useState } from "react";
 
-function Chapter({ id, chapter }) {
-  const { defaultChapterId, defaultSectionId, lightenDarkenColor } =
-    useCtxtData();
-  const [isOpen, setIsOpen] = useState(defaultChapterId === id);
-  const lightColor = lightenDarkenColor(chapter.color, 50);
+function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
+  const { defaultSectionId, chapterColor } = useCtxtData();
+  const chapterId = id;
+  // const [isOpen, setIsOpen] = useState(defaultChapterId === id);
+  const lightColor = chapterColor(id).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
   };
+  const ref = useRef(null);
+  function handleClick() {
+    if (!isOpen) onExpand();
+    if (isOpen) onCollapse();
+  }
+  const [visibleIdx, setVisibleIdx] = useState(defaultSectionId);
+  useEffect(() => {
+    if (ref.current && isOpen && defaultSectionId === null) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [isOpen]);
   return (
     <div
       className={"chapter " + (isOpen ? "chapter-active" : "chapter-inactive")}
-      id={"chapter-" + id}>
+      id={"chapter-" + id}
+      ref={ref}>
       <div style={{ display: "flex", minHeight: 0 }}>
         <div style={{ flex: 1 }}>
           <h4
             className={"chapter-name"}
             style={activeStyle}
-            onClick={() => setIsOpen(!isOpen)}>
+            onClick={() => handleClick()}>
             {chapter.name}
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -47,8 +59,10 @@ function Chapter({ id, chapter }) {
                   id={id}
                   section={section}
                   chapter={chapter}
-                  defaultSectionId={defaultSectionId}
-                  lightColor={lightColor}
+                  chapterId={chapterId}
+                  isOpen={visibleIdx == id}
+                  onExpand={() => setVisibleIdx(id)}
+                  onCollapse={() => setVisibleIdx("")}
                 />
               );
             })}

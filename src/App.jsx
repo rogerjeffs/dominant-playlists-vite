@@ -1,4 +1,4 @@
-import Chapter from "./List-components/Chapter";
+import List from "./List-components/List";
 import { useCtxtData } from "./contexts/appContext";
 import AudioPlayerContainer from "./players/AudioPlayerContainer";
 import VideoPlayerContainer from "./players/VideoPlayerContainer";
@@ -11,12 +11,7 @@ function App() {
   if (error) return <div>Kunne ikke laste inn data</div>;
   return (
     <div id='wrapper'>
-      <div id='content'>
-        <h2>Samstemt media og ressurser</h2>
-        {Object.entries(lists).map(([id, chapter]) => {
-          return <Chapter key={id} id={id} chapter={chapter} />;
-        })}
-      </div>
+      <List />
       <AudioPlayerContainer />
       <VideoPlayerContainer />
     </div>

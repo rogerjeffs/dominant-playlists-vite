@@ -5,13 +5,12 @@ import SongLink from "./SongLink";
 // import qs from "qs";
 // const query = qs.parse(window.location.search, { ignoreQueryPrefix: true });
 
-function Song({ id, song, chapter, section }) {
-  const { currentId, setCurrentId, searchParams, lightenDarkenColor } =
-    useCtxtData();
+function Song({ id, song, chapter, chapterId, section }) {
+  const { currentId, setCurrentId, searchParams, chapterColor } = useCtxtData();
   const query = searchParams.get("s");
   const songIsInQueryParam = id === query;
   const ref = useRef(null);
-  const lightestColor = lightenDarkenColor(chapter.color, 60);
+  const lightestColor = chapterColor(chapterId).lightest;
   useEffect(() => {
     if (ref.current && songIsInQueryParam) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
