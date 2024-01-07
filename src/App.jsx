@@ -5,8 +5,7 @@ import VideoPlayerContainer from "./players/VideoPlayerContainer";
 import { Audio } from "react-loader-spinner";
 
 function App() {
-  const { lists, loading, error, isPlayingAudio, defaultChapterId } =
-    useCtxtData();
+  const { lists, loading, error } = useCtxtData();
   if (loading || !lists) return <Audio color='blue' />;
   if (error) return <div>Kunne ikke laste inn data</div>;
   return (

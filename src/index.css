@@ -59,7 +59,7 @@ body,
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  padding: 0px 0px 0px 6px;
+  padding: 0px 0px 0px 0px;
 }
 .section-name-active {
   cursor: pointer;
@@ -69,7 +69,11 @@ body,
 }
 .section-active {
   --dummy-style: foo;
-  /* padding: 8px 0px 8px 0px; */
+  /* padding: 0px 0px 0px 0px; */
+}
+.section-inactive {
+  /* --dummy-style: foo; */
+  padding: 0px 0px 0px 0px;
 }
 .song {
   display: flex;

@@ -39,7 +39,7 @@ function Section({
           !isOpen ? "section-name" : "section-name section-name-active"
         }
         onClick={() => handleClick()}
-        style={activeStyle}>
+        style={isOpen ? activeStyle : null}>
         {section.name}
         <svg
           xmlns='http://www.w3.org/2000/svg'
