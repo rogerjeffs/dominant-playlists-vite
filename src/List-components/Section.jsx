@@ -2,6 +2,7 @@
 import Song from "./Song";
 import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef } from "react";
+import Chevron from "../svg/Chevron";
 
 function Section({
   id,
@@ -29,6 +30,7 @@ function Section({
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, [isOpen]);
+
   return (
     <div
       className={"section " + (isOpen ? "section-active" : "section-inactive")}
@@ -41,21 +43,7 @@ function Section({
         onClick={() => handleClick()}
         style={isOpen ? activeStyle : null}>
         {section.name}
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          className={!isOpen ? "chevron" : "chevron chevron-open"}
-          width='24'
-          height='24'
-          viewBox='0 0 24 24'
-          strokeWidth='2'
-          // stroke='currentColor'
-          stroke={chapter.color}
-          fill='none'
-          strokeLinecap='round'
-          strokeLinejoin='round'>
-          <path d='M0 0h24v24H0z' stroke='none'></path>
-          <path d='m6 9 6 6 6-6'></path>
-        </svg>
+        <Chevron color={chapter.color} isOpen={isOpen} />
       </h5>
       <div
         className='section-content'

@@ -1,6 +1,7 @@
 import Section from "./Section";
 import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef, useState } from "react";
+import Chevron from "../svg/Chevron";
 
 function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
   const { defaultSectionId, chapterColor } = useCtxtData();
@@ -33,21 +34,7 @@ function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
             style={activeStyle}
             onClick={() => handleClick()}>
             {chapter.name}
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className={!isOpen ? "chevron" : "chevron chevron-open"}
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              strokeWidth='2'
-              // stroke='currentColor'
-              stroke={chapter.color}
-              fill='none'
-              strokeLinecap='round'
-              strokeLinejoin='round'>
-              <path d='M0 0h24v24H0z' stroke='none'></path>
-              <path d='m6 9 6 6 6-6'></path>
-            </svg>
+            <Chevron color={chapter.color} isOpen={isOpen} />
           </h4>
           <div
             className='chapter-content'

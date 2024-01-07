@@ -71,6 +71,7 @@ function AppProvider({ children }) {
   //   : flattenedList[0].sectionId;
   const defaultChapterId = query ? getChapterIdFromSongId(query) : null;
   const defaultSectionId = query ? getSectionIdFromSongId(query) : null;
+
   return (
     <appContext.Provider
       value={{

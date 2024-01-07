@@ -16,7 +16,7 @@ export default function chapterColor(chapter) {
       lightest: "#ffefe4",
     },
     Kap4: {
-      main: "babfcf",
+      main: "#babfcf",
       light: "#dcdfe7",
       lightest: "#eaecf1",
     },
