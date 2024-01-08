@@ -3,22 +3,24 @@ import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
-function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
-  const { defaultSectionId, chapterColor } = useCtxtData();
+function Chapter({ id, chapter }) {
+  const { defaultSectionId, currentChapterId, chapterColor, setSearchParams } =
+    useCtxtData();
   const chapterId = id;
   // const [isOpen, setIsOpen] = useState(defaultChapterId === id);
+  const isOpen = currentChapterId === id || defaultSectionId === id;
   const lightColor = chapterColor(id).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
   };
   const ref = useRef(null);
+
   function handleClick() {
-    if (!isOpen) onExpand();
-    if (isOpen) onCollapse();
+    setSearchParams(!isOpen ? { kap: id } : {});
   }
   const [visibleIdx, setVisibleIdx] = useState(defaultSectionId);
   useEffect(() => {
-    if (ref.current && isOpen && defaultSectionId === null) {
+    if ((ref.current && currentChapterId === id) || defaultSectionId === id) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [isOpen]);
@@ -34,7 +36,7 @@ function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
             style={activeStyle}
             onClick={() => handleClick()}>
             {chapter.name}
-            <Chevron color={chapter.color} isOpen={isOpen} />
+            <Chevron color={chapterColor(id).main} isOpen={isOpen} />
           </h4>
           <div
             className='chapter-content'
@@ -60,7 +62,7 @@ function Chapter({ id, chapter, isOpen, onExpand, onCollapse }) {
             marginLeft: 8,
             alignContent: "stretch",
             width: 20,
-            background: chapter.color,
+            background: chapterColor(id).main,
           }}
         />
       </div>

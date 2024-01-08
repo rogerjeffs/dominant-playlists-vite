@@ -9,9 +9,7 @@ function AppProvider({ children }) {
   const [isPlayingVideo, setIsPlayingVideo] = useState(false);
   const [playUrl, setPlayUrl] = useState("");
   const [songName, setSongName] = useState("");
-  const [currentChapter, setCurrentChapter] = useState({});
-  const [currentId, setCurrentId] = useState("");
-  const [currentSection, setCurrentSection] = useState("");
+  // const [currentId, setCurrentId] = useState("");
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
   const [{ data, loading, error }] = useAxios("/data/list_data.txt");
@@ -69,8 +67,14 @@ function AppProvider({ children }) {
   // const defaultSectionId = query
   //   ? getSectionIdFromSongId(query)
   //   : flattenedList[0].sectionId;
-  const defaultChapterId = query ? getChapterIdFromSongId(query) : null;
-  const defaultSectionId = query ? getSectionIdFromSongId(query) : null;
+  const defaultChapterId = query ? getChapterIdFromSongId(query) : "";
+  const defaultSectionId = query ? getSectionIdFromSongId(query) : "";
+  const currentChapterId = defaultChapterId
+    ? defaultChapterId
+    : searchParams.get("kap");
+  const currentSectionId = defaultSectionId
+    ? defaultSectionId
+    : searchParams.get("sec");
 
   return (
     <appContext.Provider
@@ -86,14 +90,12 @@ function AppProvider({ children }) {
         setPlayUrl,
         songName,
         setSongName,
-        currentChapter,
-        setCurrentChapter,
-        currentSection,
-        setCurrentSection,
-        currentId,
-        setCurrentId,
+        // currentId,
+        // setCurrentId,
         searchParams,
         setSearchParams,
+        currentChapterId,
+        currentSectionId,
         defaultChapterId,
         defaultSectionId,
         chapterColor,

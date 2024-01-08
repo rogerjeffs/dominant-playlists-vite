@@ -4,29 +4,23 @@ import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef } from "react";
 import Chevron from "../svg/Chevron";
 
-function Section({
-  id,
-  section,
-  chapter,
-  chapterId,
-  isOpen,
-  onExpand,
-  onCollapse,
-}) {
+function Section({ id, section, chapter, chapterId }) {
   // const [isOpen, setIsOpen] = useState(defaultSectionId === id);
-  const { chapterColor } = useCtxtData();
+
+  const { chapterColor, defaultSectionId, currentSectionId, setSearchParams } =
+    useCtxtData();
+  const sectionId = id;
+  const isOpen = defaultSectionId === id || currentSectionId === id;
   const lightColor = chapterColor(chapterId).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
-    paddingTop: "6px",
   };
   const ref = useRef(null);
   function handleClick() {
-    if (!isOpen) onExpand();
-    if (isOpen) onCollapse();
+    setSearchParams(!isOpen ? { kap: chapterId, sec: id } : { kap: chapterId });
   }
   useEffect(() => {
-    if (ref.current && isOpen) {
+    if ((ref.current && isOpen) || defaultSectionId === id) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, [isOpen]);
@@ -43,7 +37,7 @@ function Section({
         onClick={() => handleClick()}
         style={isOpen ? activeStyle : null}>
         {section.name}
-        <Chevron color={chapter.color} isOpen={isOpen} />
+        <Chevron color={chapterColor(chapterId).main} isOpen={isOpen} />
       </h5>
       <div
         className='section-content'
@@ -57,6 +51,7 @@ function Section({
               chapter={chapter}
               chapterId={chapterId}
               section={section}
+              sectionId={sectionId}
             />
           );
         })}

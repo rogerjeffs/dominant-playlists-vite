@@ -59,13 +59,13 @@ body,
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  padding: 0px 0px 0px 0px;
+  /* padding: 0px 0px 0px 0px; */
 }
 .section-name-active {
   cursor: pointer;
   /* font-weight: 400;
-  font-size: larger;
-  padding: 1px; */
+  font-size: larger; */
+  padding-top: 6px;
 }
 .section-active {
   --dummy-style: foo;
@@ -81,7 +81,7 @@ body,
   border-bottom: 1px #eee dashed;
 }
 .song-active {
-  background: #ddd;
+  background: #cdcdcd;
 }
 .song-inactive {
   --dummy-style: foo;
@@ -153,4 +153,10 @@ body,
 
 .chevron-open {
   transform: rotate(0deg);
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
