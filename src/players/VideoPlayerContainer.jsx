@@ -4,24 +4,26 @@ import CloseButton from "../ui-components/CloseButton";
 
 function VideoPlayerContainer() {
   const {
-    lists,
-    playUrl,
+    // lists,
+    // playUrl,
     isPlayingVideo,
-    songName,
-    currentChapterId,
-    currentSectionId,
+    // songName,
     chapterColor,
+    nowPlaying,
   } = useCtxtData();
-  const chapterName = currentChapterId ? lists[currentChapterId].name : "";
-  const sectionName = currentSectionId
-    ? lists[currentChapterId].sections[currentSectionId]
-    : "";
+  // const chapterName = currentChapterId ? lists[currentChapterId].name : "";
+  // const sectionName = currentSectionId
+  // {
+  //   `${chapterName}  ${sectionName}: ${songName}`;
+  // }
+  const { playUrl, chapterName, sectionName, songName, chapterId } = nowPlaying;
+
   if (!isPlayingVideo) return <></>;
   return (
     <>
       <div
         className='video'
-        style={{ borderColor: chapterColor(currentChapterId).light }}>
+        style={{ borderColor: chapterColor(chapterId).light }}>
         <div style={{ textAlign: "center" }}>
           {`${chapterName}  ${sectionName}: ${songName}`}
         </div>

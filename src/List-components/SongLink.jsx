@@ -11,6 +11,8 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
     // setCurrentChapter,
     // setCurrentSection,
     // setCurrentId,
+    nowPlaying,
+    setNowPlaying,
     setSearchParams,
   } = useCtxtData();
 
@@ -45,6 +47,13 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
           }
           setPlayUrl(link.url);
           setSongName(name);
+          setNowPlaying({
+            playUrl: link.url,
+            songName: name,
+            chapterId: chapterId,
+            chapterName: chapter.name,
+            sectionName: section.name,
+          });
           setSearchParams({ s: id, kap: chapterId, sec: sectionId });
         }}
         href={encodeURI(link.url)}

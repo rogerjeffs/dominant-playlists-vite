@@ -7,8 +7,9 @@ const appContext = createContext();
 function AppProvider({ children }) {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isPlayingVideo, setIsPlayingVideo] = useState(false);
-  const [playUrl, setPlayUrl] = useState("");
-  const [songName, setSongName] = useState("");
+  // const [playUrl, setPlayUrl] = useState("");
+  // const [songName, setSongName] = useState("");
+  const [nowPlaying, setNowPlaying] = useState({});
   // const [currentId, setCurrentId] = useState("");
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
@@ -86,10 +87,12 @@ function AppProvider({ children }) {
         isPlayingVideo,
         setIsPlayingAudio,
         setIsPlayingVideo,
-        playUrl,
-        setPlayUrl,
-        songName,
-        setSongName,
+        // playUrl,
+        // setPlayUrl,
+        nowPlaying,
+        setNowPlaying,
+        // songName,
+        // setSongName,
         // currentId,
         // setCurrentId,
         searchParams,

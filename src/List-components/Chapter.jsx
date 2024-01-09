@@ -18,7 +18,7 @@ function Chapter({ id, chapter }) {
   function handleClick() {
     setSearchParams(!isOpen ? { kap: id } : {});
   }
-  const [visibleIdx, setVisibleIdx] = useState(defaultSectionId);
+  // const [visibleIdx, setVisibleIdx] = useState(defaultSectionId);
   useEffect(() => {
     if ((ref.current && currentChapterId === id) || defaultSectionId === id) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -49,9 +49,6 @@ function Chapter({ id, chapter }) {
                   section={section}
                   chapter={chapter}
                   chapterId={chapterId}
-                  isOpen={visibleIdx == id}
-                  onExpand={() => setVisibleIdx(id)}
-                  onCollapse={() => setVisibleIdx("")}
                 />
               );
             })}

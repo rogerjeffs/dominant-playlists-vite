@@ -4,7 +4,7 @@ import Chapter from "./Chapter";
 
 function List() {
   const { lists, defaultChapterId } = useCtxtData();
-  const [visibleIdx, setVisibleIdx] = useState(defaultChapterId);
+  // const [visibleIdx, setVisibleIdx] = useState(defaultChapterId);
   return (
     <div id='content'>
       <h2>Samstemt media og ressurser</h2>
@@ -14,9 +14,9 @@ function List() {
             key={id}
             id={id}
             chapter={chapter}
-            isOpen={visibleIdx == id}
-            onExpand={() => setVisibleIdx(id)}
-            onCollapse={() => setVisibleIdx("")}
+            // isOpen={visibleIdx == id}
+            // onExpand={() => setVisibleIdx(id)}
+            // onCollapse={() => setVisibleIdx("")}
           />
         );
       })}
