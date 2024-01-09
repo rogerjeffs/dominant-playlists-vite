@@ -36,7 +36,6 @@ body,
 }
 .chapter-active {
   --dummy-style: foo;
-  /* dynamically assigned */
 }
 .chapter-name {
   cursor: pointer;
@@ -53,27 +52,22 @@ body,
 }
 .chapter-content {
   --dummy-style: foo;
-  /* dynamically assigned */
 }
 .section-name {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  /* padding: 0px 0px 0px 0px; */
 }
 .section-name-active {
   cursor: pointer;
-  /* font-weight: 400;
-  font-size: larger; */
+
   padding-top: 6px;
 }
 .section-active {
   --dummy-style: foo;
-  /* padding: 0px 0px 0px 0px; */
 }
 .section-inactive {
-  /* --dummy-style: foo; */
-  padding: 0px 0px 0px 0px;
+  --dummy-style: foo;
 }
 .song {
   display: flex;
@@ -85,16 +79,13 @@ body,
 }
 .song-inactive {
   --dummy-style: foo;
-  /* dynamically assigned */
 }
 .song-name {
   --dummy-style: foo;
   padding-left: 8px;
-  /* dynamically assigned */
 }
 .song-link {
   --dummy-style: foo;
-  /* dynamically assigned */
 }
 
 .audio {
@@ -120,7 +111,6 @@ body,
 .video {
   position: fixed;
   bottom: 5%;
-  /* height: 90%; */
   width: 640px;
   height: fit-content;
   border: solid 6px;
@@ -146,7 +136,6 @@ body,
 .chevron {
   flex-shrink: 0;
   margin-right: 6px;
-  /* margin-top: 2px; */
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
   transform: rotate(-90deg);
 }

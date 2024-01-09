@@ -21,7 +21,8 @@ function Song({ id, song, chapter, chapterId, section, sectionId }) {
           : {
               backgroundColor: chapterColor(chapterId)?.dark,
               color: "white",
-              fontSize: "larger",
+              fontSize: "15px",
+              borderBottom: "none",
             }
       }
       ref={ref}
