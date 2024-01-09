@@ -7,7 +7,6 @@ function Chapter({ id, chapter }) {
   const { defaultSectionId, currentChapterId, chapterColor, setSearchParams } =
     useCtxtData();
   const chapterId = id;
-  // const [isOpen, setIsOpen] = useState(defaultChapterId === id);
   const isOpen = currentChapterId === id || defaultSectionId === id;
   const lightColor = chapterColor(id).light;
   const activeStyle = {
@@ -18,12 +17,13 @@ function Chapter({ id, chapter }) {
   function handleClick() {
     setSearchParams(!isOpen ? { kap: id } : {});
   }
-  // const [visibleIdx, setVisibleIdx] = useState(defaultSectionId);
+
   useEffect(() => {
     if ((ref.current && currentChapterId === id) || defaultSectionId === id) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [isOpen]);
+
   return (
     <div
       className={"chapter " + (isOpen ? "chapter-active" : "chapter-inactive")}

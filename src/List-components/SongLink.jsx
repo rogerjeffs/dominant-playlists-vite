@@ -6,12 +6,6 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
   const {
     setIsPlayingAudio,
     setIsPlayingVideo,
-    setPlayUrl,
-    setSongName,
-    // setCurrentChapter,
-    // setCurrentSection,
-    // setCurrentId,
-    nowPlaying,
     setNowPlaying,
     setSearchParams,
   } = useCtxtData();
@@ -45,8 +39,6 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
             setIsPlayingAudio(false);
             setIsPlayingVideo(true);
           }
-          setPlayUrl(link.url);
-          setSongName(name);
           setNowPlaying({
             playUrl: link.url,
             songName: name,

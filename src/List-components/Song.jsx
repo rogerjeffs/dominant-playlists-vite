@@ -1,20 +1,15 @@
 import { useEffect, useRef } from "react";
 import { useCtxtData } from "../contexts/appContext";
 import SongLink from "./SongLink";
-// import { useSearchParams } from "react-router-dom";
-// import qs from "qs";
-// const query = qs.parse(window.location.search, { ignoreQueryPrefix: true });
 
 function Song({ id, song, chapter, chapterId, section, sectionId }) {
   const { setCurrentId, searchParams, chapterColor } = useCtxtData();
   const query = searchParams.get("s");
   const songIsInQueryParam = id === query;
   const ref = useRef(null);
-  const lightestColor = chapterColor(chapterId).lightest;
   useEffect(() => {
     if (ref.current && songIsInQueryParam) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
-      // setCurrentId(id);
     }
   }, [songIsInQueryParam, id, setCurrentId]);
 
@@ -22,8 +17,12 @@ function Song({ id, song, chapter, chapterId, section, sectionId }) {
     <div
       style={
         !songIsInQueryParam
-          ? { backgroundColor: lightestColor }
-          : { foo: "bar" }
+          ? { backgroundColor: chapterColor(chapterId)?.lightest }
+          : {
+              backgroundColor: chapterColor(chapterId)?.dark,
+              color: "white",
+              fontSize: "larger",
+            }
       }
       ref={ref}
       className={

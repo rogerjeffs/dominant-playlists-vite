@@ -1,12 +1,9 @@
-// import { useState } from "react";
 import Song from "./Song";
 import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef } from "react";
 import Chevron from "../svg/Chevron";
 
 function Section({ id, section, chapter, chapterId }) {
-  // const [isOpen, setIsOpen] = useState(defaultSectionId === id);
-
   const { chapterColor, defaultSectionId, currentSectionId, setSearchParams } =
     useCtxtData();
   const sectionId = id;

@@ -14,7 +14,7 @@ function CloseButton() {
   return (
     <button
       className='button-close'
-      style={{ backgroundColor: chapterColor(currentChapterId).light }}
+      style={{ backgroundColor: chapterColor(currentChapterId)?.light }}
       onClick={() => handleClose()}>
       Lukk
     </button>

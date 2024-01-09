@@ -7,10 +7,7 @@ const appContext = createContext();
 function AppProvider({ children }) {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isPlayingVideo, setIsPlayingVideo] = useState(false);
-  // const [playUrl, setPlayUrl] = useState("");
-  // const [songName, setSongName] = useState("");
   const [nowPlaying, setNowPlaying] = useState({});
-  // const [currentId, setCurrentId] = useState("");
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
   const [{ data, loading, error }] = useAxios("/data/list_data.txt");
@@ -91,10 +88,6 @@ function AppProvider({ children }) {
         // setPlayUrl,
         nowPlaying,
         setNowPlaying,
-        // songName,
-        // setSongName,
-        // currentId,
-        // setCurrentId,
         searchParams,
         setSearchParams,
         currentChapterId,
