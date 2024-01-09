@@ -84,8 +84,6 @@ function AppProvider({ children }) {
         isPlayingVideo,
         setIsPlayingAudio,
         setIsPlayingVideo,
-        // playUrl,
-        // setPlayUrl,
         nowPlaying,
         setNowPlaying,
         searchParams,

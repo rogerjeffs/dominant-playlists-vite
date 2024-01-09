@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.mp3
+*.mp4
+*.pdf
+*.zip
+*.mscz
+*.sib
+*.xml
+*.wav
+*.ico

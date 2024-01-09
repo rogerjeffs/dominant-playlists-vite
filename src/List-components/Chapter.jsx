@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
 function Chapter({ id, chapter }) {
-  const { defaultSectionId, currentChapterId, chapterColor, setSearchParams } =
+  const { defaultChapterId, currentChapterId, chapterColor, setSearchParams } =
     useCtxtData();
   const chapterId = id;
-  const isOpen = currentChapterId === id || defaultSectionId === id;
+  const isOpen = currentChapterId === id || defaultChapterId === id;
   const lightColor = chapterColor(id).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
@@ -18,8 +18,14 @@ function Chapter({ id, chapter }) {
     setSearchParams(!isOpen ? { kap: id } : {});
   }
 
+  // useEffect(() => {
+  //   if ((ref.current && currentChapterId === id) || defaultChapterId === id) {
+  //     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   }
+  // }, [isOpen]);
+  console.log(currentChapterId, defaultChapterId);
   useEffect(() => {
-    if ((ref.current && currentChapterId === id) || defaultSectionId === id) {
+    if (ref.current && currentChapterId === id) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [isOpen]);
