@@ -21,7 +21,6 @@ function Section({ id, section, chapter, chapterId }) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, [isOpen]);
-
   return (
     <div
       className={"section " + (isOpen ? "section-active" : "section-inactive")}

@@ -13,14 +13,17 @@ function Chapter({ id, chapter }) {
     backgroundColor: isOpen ? lightColor : "inherit",
   };
   const ref = useRef(null);
+  const [clicked, setClicked] = useState(false);
 
   function handleClick() {
     setSearchParams(!isOpen ? { kap: id } : {});
+    setClicked(true);
   }
-
   useEffect(() => {
-    if ((ref.current && currentChapterId === id) || defaultSectionId === id) {
+    console.log(clicked);
+    if (ref.current && currentChapterId === id && clicked) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      setClicked(false);
     }
   }, [isOpen]);
 
