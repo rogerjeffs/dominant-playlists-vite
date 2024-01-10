@@ -1,25 +1,27 @@
 import Song from "./Song";
 import { useCtxtData } from "../contexts/appContext";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
 function Section({ id, section, chapter, chapterId }) {
-  const { chapterColor, defaultSectionId, currentSectionId, setSearchParams } =
-    useCtxtData();
+  const { chapterColor, currentSectionId, setSearchParams } = useCtxtData();
   const sectionId = id;
-  const isOpen = defaultSectionId === id || currentSectionId === id;
+  const isOpen = currentSectionId === id;
   const lightColor = chapterColor(chapterId).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
   };
   const ref = useRef(null);
+  const [clicked, setClicked] = useState(false);
   function handleClick() {
     setSearchParams(!isOpen ? { kap: chapterId, sec: id } : { kap: chapterId });
+    setClicked(true);
   }
   useEffect(() => {
-    if ((ref.current && isOpen) || defaultSectionId === id) {
+    if (ref.current && isOpen && clicked) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
+    setClicked(false);
   }, [isOpen]);
   return (
     <div

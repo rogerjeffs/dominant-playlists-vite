@@ -90,8 +90,6 @@ function AppProvider({ children }) {
         setSearchParams,
         currentChapterId,
         currentSectionId,
-        defaultChapterId,
-        defaultSectionId,
         chapterColor,
       }}>
       {children}

@@ -4,10 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
 function Chapter({ id, chapter }) {
-  const { defaultChapterId, currentChapterId, chapterColor, setSearchParams } =
-    useCtxtData();
+  const { currentChapterId, chapterColor, setSearchParams } = useCtxtData();
   const chapterId = id;
-  const isOpen = currentChapterId === id || defaultChapterId === id;
+  const isOpen = currentChapterId === id;
   const lightColor = chapterColor(id).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
@@ -20,17 +19,11 @@ function Chapter({ id, chapter }) {
     setClicked(true);
   }
 
-  // useEffect(() => {
-  //   if ((ref.current && currentChapterId === id) || defaultChapterId === id) {
-  //     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  //   }
-  // }, [isOpen]);
-  console.log(currentChapterId, defaultChapterId);
   useEffect(() => {
-    if (ref.current && currentChapterId === id) {
+    if (ref.current && isOpen && clicked) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-      setClicked(false);
     }
+    setClicked(false);
   }, [isOpen]);
 
   return (
