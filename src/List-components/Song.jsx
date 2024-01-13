@@ -36,9 +36,11 @@ function Song({ id, song, chapter, chapterId, section, sectionId }) {
           return (
             <div
               key={link.url}
-              className='song-link'
-              style={{ marginRight: 8 }}>
+              style={{
+                marginRight: 8,
+              }}>
               <SongLink
+                active={songIsInQueryParam}
                 link={link}
                 name={song.name}
                 chapter={chapter}
