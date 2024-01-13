@@ -3,16 +3,17 @@ import { useCtxtData } from "../contexts/appContext";
 import CloseButton from "../ui-components/CloseButton";
 
 function VideoPlayerContainer() {
-  const { playUrl, isPlayingVideo, currentChapter, currentSection, songName } =
-    useCtxtData();
-  // console.log(playUrl);
-  // if (true) return <></>;
+  const { isPlayingVideo, chapterColor, nowPlaying } = useCtxtData();
+  const { playUrl, chapterName, sectionName, songName, chapterId } = nowPlaying;
+
   if (!isPlayingVideo) return <></>;
   return (
     <>
-      <div className='video' style={{ borderColor: currentChapter.color }}>
+      <div
+        className='video'
+        style={{ borderColor: chapterColor(chapterId)?.light }}>
         <div style={{ textAlign: "center" }}>
-          {`${currentChapter.name}  ${currentSection.name}: ${songName}`}
+          {`${chapterName}  ${sectionName}: ${songName}`}
         </div>
 
         <ReactPlayer

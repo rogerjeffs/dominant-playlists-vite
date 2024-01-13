@@ -1,19 +1,44 @@
-import { useState } from "react";
 import Section from "./Section";
 import { useCtxtData } from "../contexts/appContext";
+import { useEffect, useRef, useState } from "react";
+import Chevron from "../svg/Chevron";
 
 function Chapter({ id, chapter }) {
-  const { defaultChapterId, defaultSectionId } = useCtxtData();
-  const [isOpen, setIsOpen] = useState(defaultChapterId === id);
+  const { currentChapterId, chapterColor, setSearchParams } = useCtxtData();
+  const chapterId = id;
+  const isOpen = currentChapterId === id;
+  const lightColor = chapterColor(id).light;
+  const activeStyle = {
+    backgroundColor: isOpen ? lightColor : "inherit",
+  };
+  const ref = useRef(null);
+  const [clicked, setClicked] = useState(false);
+
+  function handleClick() {
+    setSearchParams(!isOpen ? { kap: id } : {});
+    setClicked(true);
+  }
+
+  useEffect(() => {
+    if (ref.current && isOpen && clicked) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    setClicked(false);
+  }, [isOpen]);
 
   return (
     <div
       className={"chapter " + (isOpen ? "chapter-active" : "chapter-inactive")}
-      id={"chapter-" + id}>
+      id={"chapter-" + id}
+      ref={ref}>
       <div style={{ display: "flex", minHeight: 0 }}>
         <div style={{ flex: 1 }}>
-          <h4 className='chapter-name' onClick={() => setIsOpen(!isOpen)}>
+          <h4
+            className={"chapter-name"}
+            style={activeStyle}
+            onClick={() => handleClick()}>
             {chapter.name}
+            <Chevron color={chapterColor(id).main} isOpen={isOpen} />
           </h4>
           <div
             className='chapter-content'
@@ -25,7 +50,7 @@ function Chapter({ id, chapter }) {
                   id={id}
                   section={section}
                   chapter={chapter}
-                  defaultSectionId={defaultSectionId}
+                  chapterId={chapterId}
                 />
               );
             })}
@@ -36,7 +61,7 @@ function Chapter({ id, chapter }) {
             marginLeft: 8,
             alignContent: "stretch",
             width: 20,
-            background: chapter.color,
+            background: chapterColor(id).main,
           }}
         />
       </div>

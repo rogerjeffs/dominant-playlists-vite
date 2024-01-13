@@ -1,16 +1,13 @@
 import useAxios from "axios-hooks";
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import chapterColor from "../assets/chapterColor";
 const appContext = createContext();
 
 function AppProvider({ children }) {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isPlayingVideo, setIsPlayingVideo] = useState(false);
-  const [playUrl, setPlayUrl] = useState("");
-  const [songName, setSongName] = useState("");
-  const [currentChapter, setCurrentChapter] = useState({});
-  const [currentId, setCurrentId] = useState("");
-  const [currentSection, setCurrentSection] = useState("");
+  const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
   const [{ data, loading, error }] = useAxios("/data/list_data.txt");
@@ -62,12 +59,21 @@ function AppProvider({ children }) {
     return flattenedList.find((x) => x.songId === songId)?.sectionId ?? null;
   }
 
-  const defaultChapterId = query
-    ? getChapterIdFromSongId(query)
-    : flattenedList[0].chapterId;
-  const defaultSectionId = query
-    ? getSectionIdFromSongId(query)
-    : flattenedList[0].sectionId;
+  // const defaultChapterId = query
+  //   ? getChapterIdFromSongId(query)
+  //   : flattenedList[0].chapterId;
+  // const defaultSectionId = query
+  //   ? getSectionIdFromSongId(query)
+  //   : flattenedList[0].sectionId;
+  const defaultChapterId = query ? getChapterIdFromSongId(query) : "";
+  const defaultSectionId = query ? getSectionIdFromSongId(query) : "";
+  const currentChapterId = defaultChapterId
+    ? defaultChapterId
+    : searchParams.get("kap");
+  const currentSectionId = defaultSectionId
+    ? defaultSectionId
+    : searchParams.get("sec");
+
   return (
     <appContext.Provider
       value={{
@@ -78,20 +84,13 @@ function AppProvider({ children }) {
         isPlayingVideo,
         setIsPlayingAudio,
         setIsPlayingVideo,
-        playUrl,
-        setPlayUrl,
-        songName,
-        setSongName,
-        currentChapter,
-        setCurrentChapter,
-        currentSection,
-        setCurrentSection,
-        currentId,
-        setCurrentId,
+        nowPlaying,
+        setNowPlaying,
         searchParams,
         setSearchParams,
-        defaultChapterId,
-        defaultSectionId,
+        currentChapterId,
+        currentSectionId,
+        chapterColor,
       }}>
       {children}
     </appContext.Provider>

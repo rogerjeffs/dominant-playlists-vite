@@ -1,16 +1,12 @@
 import { useCtxtData } from "../contexts/appContext";
 import { songTypeConfig } from "../songTypeConfig";
 
-function SongLink({ link, name, chapter, section, id }) {
+function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
   const config = songTypeConfig[link.type];
   const {
     setIsPlayingAudio,
     setIsPlayingVideo,
-    setPlayUrl,
-    setSongName,
-    setCurrentChapter,
-    setCurrentSection,
-    setCurrentId,
+    setNowPlaying,
     setSearchParams,
   } = useCtxtData();
 
@@ -43,12 +39,14 @@ function SongLink({ link, name, chapter, section, id }) {
             setIsPlayingAudio(false);
             setIsPlayingVideo(true);
           }
-          setPlayUrl(link.url);
-          setSongName(name);
-          setCurrentChapter(chapter);
-          setCurrentId(id);
-          setCurrentSection(section);
-          setSearchParams({ s: id });
+          setNowPlaying({
+            playUrl: link.url,
+            songName: name,
+            chapterId: chapterId,
+            chapterName: chapter.name,
+            sectionName: section.name,
+          });
+          setSearchParams({ s: id, kap: chapterId, sec: sectionId });
         }}
         href={encodeURI(link.url)}
         target='_blank'

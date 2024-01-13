@@ -1,26 +1,34 @@
 import { useEffect, useRef } from "react";
 import { useCtxtData } from "../contexts/appContext";
 import SongLink from "./SongLink";
-// import { useSearchParams } from "react-router-dom";
-// import qs from "qs";
-// const query = qs.parse(window.location.search, { ignoreQueryPrefix: true });
 
-function Song({ id, song, chapter, section }) {
-  const { currentId, setCurrentId, searchParams } = useCtxtData();
+function Song({ id, song, chapter, chapterId, section, sectionId }) {
+  const { setCurrentId, searchParams, chapterColor } = useCtxtData();
   const query = searchParams.get("s");
   const songIsInQueryParam = id === query;
   const ref = useRef(null);
   useEffect(() => {
     if (ref.current && songIsInQueryParam) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
-      setCurrentId(id);
     }
   }, [songIsInQueryParam, id, setCurrentId]);
 
   return (
     <div
+      style={
+        !songIsInQueryParam
+          ? { backgroundColor: chapterColor(chapterId)?.lightest }
+          : {
+              backgroundColor: chapterColor(chapterId)?.dark,
+              color: "white",
+              fontSize: "15px",
+              borderBottom: "none",
+            }
+      }
       ref={ref}
-      className={"song " + (id === currentId ? "song-active" : "song-inactive")}
+      className={
+        "song " + (songIsInQueryParam ? "song-active" : "song-inactive")
+      }
       id={"song-" + id}>
       <div className='song-name'>{song.name}</div>
       <div style={{ display: "flex" }}>
@@ -34,7 +42,9 @@ function Song({ id, song, chapter, section }) {
                 link={link}
                 name={song.name}
                 chapter={chapter}
+                chapterId={chapterId}
                 section={section}
+                sectionId={sectionId}
                 id={id}
               />
             </div>
