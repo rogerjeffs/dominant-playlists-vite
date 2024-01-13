@@ -13,7 +13,6 @@ function SongLink({
 }) {
   const config = songTypeConfig[link.type];
   const linkstyle = { color: active ? "white" : "" };
-  console.log(linkstyle);
   const {
     setIsPlayingAudio,
     setIsPlayingVideo,
