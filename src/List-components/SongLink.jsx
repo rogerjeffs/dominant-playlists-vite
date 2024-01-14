@@ -1,8 +1,18 @@
 import { useCtxtData } from "../contexts/appContext";
 import { songTypeConfig } from "../songTypeConfig";
 
-function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
+function SongLink({
+  link,
+  name,
+  chapter,
+  chapterId,
+  section,
+  sectionId,
+  id,
+  active,
+}) {
   const config = songTypeConfig[link.type];
+  const linkstyle = { color: active ? "white" : "" };
   const {
     setIsPlayingAudio,
     setIsPlayingVideo,
@@ -12,7 +22,11 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
 
   if (config.download) {
     return (
-      <a href={encodeURI(link.url)} download title={config.hovertext}>
+      <a
+        href={encodeURI(link.url)}
+        download
+        title={config.hovertext}
+        style={linkstyle}>
         {config.name}
       </a>
     );
@@ -24,7 +38,8 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
         href={encodeURI(link.url)}
         target='_blank'
         rel='noreferrer noopener'
-        title={config.hovertext}>
+        title={config.hovertext}
+        style={linkstyle}>
         {config.name}
       </a>
     ) : (
@@ -51,7 +66,8 @@ function SongLink({ link, name, chapter, chapterId, section, sectionId, id }) {
         href={encodeURI(link.url)}
         target='_blank'
         rel='noreferrer noopener'
-        title={config.hovertext}>
+        title={config.hovertext}
+        style={linkstyle}>
         {config.name}
       </a>
     );

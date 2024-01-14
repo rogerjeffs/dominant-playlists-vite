@@ -84,9 +84,6 @@ body,
   --dummy-style: foo;
   padding-left: 8px;
 }
-.song-link {
-  --dummy-style: foo;
-}
 
 .audio {
   position: fixed;
