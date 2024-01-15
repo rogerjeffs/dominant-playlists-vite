@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     base: "./",
-    copyPublicDir: false,
+    // copyPublicDir: false,
   },
   base: "./",
 });
