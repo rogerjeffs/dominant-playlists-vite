@@ -19,7 +19,7 @@
             name: "Noteverdier",
             links: [
               {
-                url: "media/samstemt/video/noteverdier.mov",
+                url: "media/samstemt/video/noteverdier.mp4",
                 type: "video",
               },
             ],
