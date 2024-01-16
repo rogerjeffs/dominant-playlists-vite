@@ -12,14 +12,14 @@ function VideoPlayerContainer() {
       <div
         className='video'
         style={{ borderColor: chapterColor(chapterId)?.light }}>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", padding: "4px" }}>
           {`${chapterName}  ${sectionName}: ${songName}`}
         </div>
 
         <ReactPlayer
           className='react-player'
           url={playUrl}
-          // height='315px'
+          // height='fit-content'
           width='100%'
           controls
         />
