@@ -10,9 +10,9 @@ function AppProvider({ children }) {
   const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
-  const [{ data, loading, error }] = useAxios("/data/list_data.txt");
-  const lists = strToObj(data); //strToObj not needed for jsons
-
+  const [{ data, loading, error }] = useAxios("/data/list_data.json");
+  // const lists = strToObj(data); //strToObj not needed for jsons
+  const lists = data;
   if (loading || !lists)
     return (
       <appContext.Provider
@@ -42,15 +42,15 @@ function AppProvider({ children }) {
     }
   );
 
-  function strToObj(e) {
-    if (!e) return;
-    if (typeof e == "string") {
-      const obj = new Function("return" + e);
-      return obj();
-    } else {
-      console.log("fetched data is not a string");
-    }
-  }
+  // function strToObj(e) {
+  //   if (!e) return;
+  //   if (typeof e == "string") {
+  //     const obj = new Function("return" + e);
+  //     return obj();
+  //   } else {
+  //     console.log("fetched data is not a string");
+  //   }
+  // }
   function getChapterIdFromSongId(songId) {
     return flattenedList.find((x) => x.songId === songId)?.chapterId ?? null;
   }
@@ -58,7 +58,11 @@ function AppProvider({ children }) {
   function getSectionIdFromSongId(songId) {
     return flattenedList.find((x) => x.songId === songId)?.sectionId ?? null;
   }
-
+  function closePlayers() {
+    setIsPlayingAudio(false);
+    setIsPlayingVideo(false);
+    setNowPlaying({});
+  }
   // const defaultChapterId = query
   //   ? getChapterIdFromSongId(query)
   //   : flattenedList[0].chapterId;
@@ -91,6 +95,7 @@ function AppProvider({ children }) {
         currentChapterId,
         currentSectionId,
         chapterColor,
+        closePlayers,
       }}>
       {children}
     </appContext.Provider>
