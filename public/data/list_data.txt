@@ -15,11 +15,47 @@
               },
             ],
           },
-          XZXZ: {
+          ABC0: {
             name: "Noteverdier",
             links: [
               {
-                url: "media/samstemt/video/noteverdier.mp4",
+                url: "media/samstemt/video/2-noteverdier.mp4",
+                type: "video",
+              },
+            ],
+          },
+          ABC1: {
+            name: "Trommesett",
+            links: [
+              {
+                url: "media/samstemt/video/1-trommesett.mp4",
+                type: "video",
+              },
+            ],
+          },
+          ABC2: {
+            name: "Trioler",
+            links: [
+              {
+                url: "media/samstemt/video/2-trioler.mp4",
+                type: "video",
+              },
+            ],
+          },
+          ABC3: {
+            name: "Pulsens noteverdi",
+            links: [
+              {
+                url: "media/samstemt/video/4-pulsens noteverdi.mp4",
+                type: "video",
+              },
+            ],
+          },
+          ABC4: {
+            name: "Synkoper",
+            links: [
+              {
+                url: "media/samstemt/video/4-synkoper.mp4",
                 type: "video",
               },
             ],

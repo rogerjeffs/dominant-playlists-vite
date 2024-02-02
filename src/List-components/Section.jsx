@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
 function Section({ id, section, chapter, chapterId }) {
-  const { chapterColor, currentSectionId, setSearchParams } = useCtxtData();
+  const { chapterColor, currentSectionId, setSearchParams, closePlayers } =
+    useCtxtData();
   const sectionId = id;
   const isOpen = currentSectionId === id;
   const lightColor = chapterColor(chapterId).light;
@@ -16,6 +17,7 @@ function Section({ id, section, chapter, chapterId }) {
   function handleClick() {
     setSearchParams(!isOpen ? { kap: chapterId, sec: id } : { kap: chapterId });
     setClicked(true);
+    closePlayers();
   }
   useEffect(() => {
     if (ref.current && isOpen && clicked) {
