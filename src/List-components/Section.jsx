@@ -7,7 +7,7 @@ function Section({ id, section, chapter, chapterId }) {
   const { chapterColor, currentSectionId, setSearchParams, closePlayers } =
     useCtxtData();
   const sectionId = id;
-  const isOpen = currentSectionId === id;
+  const isOpen = currentSectionId === id || section.name === "";
   const lightColor = chapterColor(chapterId).light;
   const activeStyle = {
     backgroundColor: isOpen ? lightColor : "inherit",
@@ -30,15 +30,17 @@ function Section({ id, section, chapter, chapterId }) {
       className={"section " + (isOpen ? "section-active" : "section-inactive")}
       id={"chapter-" + id}
       ref={ref}>
-      <h5
-        className={
-          !isOpen ? "section-name" : "section-name section-name-active"
-        }
-        onClick={() => handleClick()}
-        style={isOpen ? activeStyle : null}>
-        {section.name}
-        <Chevron color={chapterColor(chapterId).main} isOpen={isOpen} />
-      </h5>
+      {section.name !== "" && (
+        <h5
+          className={
+            !isOpen ? "section-name" : "section-name section-name-active"
+          }
+          onClick={() => handleClick()}
+          style={isOpen ? activeStyle : null}>
+          {section.name}
+          <Chevron color={chapterColor(chapterId).main} isOpen={isOpen} />
+        </h5>
+      )}
       <div
         className='section-content'
         style={{ display: isOpen ? "" : "none" }}>
