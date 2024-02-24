@@ -1,20 +1,17 @@
 import { useCtxtData } from "../contexts/appContext";
 
 function CloseButton() {
-  const {
-    setIsPlayingAudio,
-    setIsPlayingVideo,
-    currentChapterId,
-    chapterColor,
-  } = useCtxtData();
+  const { closePlayers, currentChapterId, chapterColor } = useCtxtData();
   function handleClose() {
-    setIsPlayingAudio(false);
-    setIsPlayingVideo(false);
+    closePlayers();
   }
   return (
     <button
       className='button-close'
-      style={{ backgroundColor: chapterColor(currentChapterId)?.light }}
+      style={{
+        backgroundColor: chapterColor(currentChapterId)?.main,
+        color: "white",
+      }}
       onClick={() => handleClose()}>
       Lukk
     </button>

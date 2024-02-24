@@ -1,30 +1,51 @@
 {
   "Kap1": {
     "name": "Notesystemet",
-    "color": "#7a8dff",
     "sections": {
       "Section101": {
-        "name": "1.1 Stamtonerekken og nøkler",
+        "name": "",
         "songs": {
-          "O2EL": {
-            "name": "OppgaverPDF 1.1 Treklanger",
+          "39RC": {
+            "name": "Trommesett",
             "links": [
               {
-                "url": "media/samstemt/pdf/OppgavePDF_1.1_Treklanger.pdf",
+                "url": "media/opptakt/video/1-trommesett.mp4",
+                "type": "video"
+              }
+            ]
+          },
+          "0292": {
+            "name": "OppgaverPDF 1.1 Notenavn",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.01.pdf",
                 "type": "pdf"
               }
             ]
-          }
-        }
-      },
-      "Section102": {
-        "name": "1.2 Oktavleier",
-        "songs": {
-          "O2EM": {
-            "name": "OppgaverPDF 1.1 Treklanger",
+          },
+          "0AH9": {
+            "name": "OppgaverPDF 1.2 G- og F-nøkkel",
             "links": [
               {
-                "url": "media/samstemt/pdf/OppgavePDF_1.1_Treklanger.pdf",
+                "url": "media/opptakt/pdf/Oppgave 1.02.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "GH72": {
+            "name": "OppgaverPDF 1.3 Identiske toner",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.03.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "4GTJ": {
+            "name": "OppgaverPDF 1.4 Oktavleie",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.04.pdf",
                 "type": "pdf"
               }
             ]
@@ -35,17 +56,143 @@
   },
   "Kap2": {
     "name": "Noteverdier",
-    "color": "#a9b79b",
     "sections": {
       "Section201": {
-        "name": "2.1 Noteverdier",
+        "name": "",
         "songs": {
-          "ZZZZ": {
+          "MQIB": {
             "name": "Noteverdier",
             "links": [
               {
                 "url": "media/samstemt/video/2-noteverdier.mp4",
                 "type": "video"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap3": {
+    "name": "Fortegn",
+    "sections": {
+      "Section201": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 3.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap4": {
+    "name": "Takt",
+    "sections": {
+      "Section401": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap5": {
+    "name": "Intervaller",
+    "sections": {
+      "Section501": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap6": {
+    "name": "Tonalitet",
+    "sections": {
+      "Section601": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap7": {
+    "name": "Akkorder",
+    "sections": {
+      "Section701": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap8": {
+    "name": "Tegn og uttrykk",
+    "sections": {
+      "Section801": {
+        "name": "",
+        "songs": {
+          "XYXY": {
+            "name": "Adagio",
+            "links": [
+              {
+                "url": "https://open.spotify.com/track/1emdMnglWKwMS8XitagHzT?si=843a956e86a24087",
+                "type": "spotify"
+              }
+            ]
+          },
+          "XZXY": {
+            "name": "Grave",
+            "links": [
+              {
+                "url": "https://open.spotify.com/track/12K7TD1T5YcGYtFbceLybv?si=f8ec077b43ca4922",
+                "type": "spotify"
+              },
+              {
+                "url": "https://youtu.be/-x3FJaif4cA?si=dOzPkFGJDTYNyt5N&t=7",
+                "type": "youtube"
               }
             ]
           }

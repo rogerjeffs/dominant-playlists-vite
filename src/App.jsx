@@ -3,6 +3,7 @@ import Loader from "./List-components/Loader";
 import { useCtxtData } from "./contexts/appContext";
 import AudioPlayerContainer from "./players/AudioPlayerContainer";
 import VideoPlayerContainer from "./players/VideoPlayerContainer";
+import SpotifyPlayerContainer from "./players/SpotifyPlayerContainer";
 
 function App() {
   const { lists, loading, error } = useCtxtData();
@@ -19,6 +20,7 @@ function App() {
       <List />
       <AudioPlayerContainer />
       <VideoPlayerContainer />
+      <SpotifyPlayerContainer />
     </div>
   );
 }

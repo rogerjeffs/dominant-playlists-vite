@@ -130,6 +130,15 @@ body,
   width: 100%;
   position: absolute;
 }
+.spotify {
+  border-radius: 12px;
+  position: fixed;
+  bottom: 1%;
+  width: 640px;
+  max-width: calc(100% - 70px);
+  border: none;
+}
+
 .chevron {
   flex-shrink: 0;
   margin-right: 6px;
