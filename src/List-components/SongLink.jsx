@@ -33,10 +33,10 @@ function SongLink({
       </a>
     );
   } else {
-    return (config.name !== "mp3" &&
+    return config.name !== "mp3" &&
       config.name !== "YouTube" &&
       config.name !== "video" &&
-      config.name !== "Spotify") ||
+      config.name === "Spotify" &&
       !embedSpotify ? (
       <a
         href={encodeURI(link.url)}
@@ -60,7 +60,7 @@ function SongLink({
             setIsPlayingSpotify(false);
             setIsPlayingVideo(true);
           }
-          if (config.name === "Spotify" && embedSpotify) {
+          if (config.name === "Spotify") {
             setIsPlayingAudio(false);
             setIsPlayingVideo(false);
             setIsPlayingSpotify(true);

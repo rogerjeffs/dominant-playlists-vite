@@ -60,7 +60,7 @@ body,
 }
 .section-name-active {
   cursor: pointer;
-
+  padding-left: 8px;
   padding-top: 6px;
 }
 .section-active {

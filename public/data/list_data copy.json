@@ -1,6 +1,7 @@
 {
   "Kap1": {
     "name": "Notesystemet",
+    "color": "#7a8dff",
     "sections": {
       "Section101": {
         "name": "",
@@ -56,6 +57,7 @@
   },
   "Kap2": {
     "name": "Noteverdier",
+    "color": "#a9b79b",
     "sections": {
       "Section201": {
         "name": "",
@@ -75,6 +77,7 @@
   },
   "Kap3": {
     "name": "Fortegn",
+    "color": "#a9b79b",
     "sections": {
       "Section201": {
         "name": "",
@@ -94,6 +97,7 @@
   },
   "Kap4": {
     "name": "Takt",
+    "color": "#a9b79b",
     "sections": {
       "Section401": {
         "name": "",
@@ -113,6 +117,7 @@
   },
   "Kap5": {
     "name": "Intervaller",
+    "color": "#a9b79b",
     "sections": {
       "Section501": {
         "name": "",
@@ -132,6 +137,7 @@
   },
   "Kap6": {
     "name": "Tonalitet",
+    "color": "#a9b79b",
     "sections": {
       "Section601": {
         "name": "",
@@ -151,6 +157,7 @@
   },
   "Kap7": {
     "name": "Akkorder",
+    "color": "#a9b79b",
     "sections": {
       "Section701": {
         "name": "",
@@ -170,29 +177,17 @@
   },
   "Kap8": {
     "name": "Tegn og uttrykk",
+    "color": "#a9b79b",
     "sections": {
       "Section801": {
         "name": "",
         "songs": {
-          "XYXY": {
-            "name": "Adagio",
+          "MQIB": {
+            "name": "Test",
             "links": [
               {
-                "url": "https://open.spotify.com/track/1emdMnglWKwMS8XitagHzT?si=843a956e86a24087",
-                "type": "spotify"
-              }
-            ]
-          },
-          "XZXY": {
-            "name": "Grave",
-            "links": [
-              {
-                "url": "https://open.spotify.com/track/12K7TD1T5YcGYtFbceLybv?si=f8ec077b43ca4922",
-                "type": "spotify"
-              },
-              {
-                "url": "https://youtu.be/-x3FJaif4cA?si=dOzPkFGJDTYNyt5N&t=7",
-                "type": "youtube"
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
               }
             ]
           }

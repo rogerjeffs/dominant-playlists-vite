@@ -1,0 +1,620 @@
+{
+  "Kap1": {
+    "name": "Notesystemet",
+    "sections": {
+      "Section101": {
+        "name": "",
+        "songs": {
+          "39RC": {
+            "name": "Trommesett",
+            "links": [
+              {
+                "url": "media/opptakt/video/1-trommesett.mp4",
+                "type": "video"
+              }
+            ]
+          },
+          "0292": {
+            "name": "OppgaverPDF 1.1 Notenavn",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "0AH9": {
+            "name": "OppgaverPDF 1.2 G- og F-nøkkel",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.02.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "GH72": {
+            "name": "OppgaverPDF 1.3 Identiske toner",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.03.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "4GTJ": {
+            "name": "OppgaverPDF 1.4 Oktavleie",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.04.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap2": {
+    "name": "Noteverdier",
+    "sections": {
+      "Section201": {
+        "name": "",
+        "songs": {
+          "39RC": {
+            "name": "Noteverdier",
+            "links": [
+              {
+                "url": "media/samstemt/video/2-noteverdier.mp4",
+                "type": "video"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap3": {
+    "name": "Fortegn",
+    "sections": {
+      "Section201": {
+        "name": "",
+        "songs": {
+          "1I68": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 3.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap4": {
+    "name": "Takt",
+    "sections": {
+      "Section401": {
+        "name": "",
+        "songs": {
+          "FRLY": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap5": {
+    "name": "Intervaller",
+    "sections": {
+      "Section501": {
+        "name": "",
+        "songs": {
+          "SPVD": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap6": {
+    "name": "Tonalitet",
+    "sections": {
+      "Section601": {
+        "name": "",
+        "songs": {
+          "1JA5": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap7": {
+    "name": "Akkorder",
+    "sections": {
+      "Section701": {
+        "name": "",
+        "songs": {
+          "9BHR": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap8": {
+    "name": "Tegn og uttrykk",
+    "sections": {
+      "Section801": {
+        "name": "Tempobetgnelser",
+        "songs": {
+          "SLKK": {
+            "name": "Adagio",
+            "links": [
+              {
+                "url": "https://youtu.be/ajaMdRv0IK0?si=G0PgHut5whOyQrie",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/1emdMnglWKwMS8XitagHzT?si=843a956e86a24087",
+                "type": "spotify"
+              }
+            ]
+          },
+          "XZXY": {
+            "name": "Grave",
+            "links": [
+              {
+                "url": "https://youtu.be/-x3FJaif4cA?si=dOzPkFGJDTYNyt5N&t=7",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/12K7TD1T5YcGYtFbceLybv?si=f8ec077b43ca4922",
+                "type": "spotify"
+              }
+            ]
+          },
+          "JX64": {
+            "name": "Largo",
+            "links": [
+              {
+                "url": "https://youtu.be/m4OrdMJ3Iyo?si=6xu3PLUW3iCoyN6F&t=583",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/7u3iE4RCyuj1QVb1EGty28?si=0dcb1ca84f484e26",
+                "type": "spotify"
+              }
+            ]
+          },
+          "Y5GY": {
+            "name": "Larghetto",
+            "links": [
+              {
+                "url": "https://youtu.be/rrwJiT1ksps?si=U8yGpny3p-TnQiZo&t=854",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/32xner6nUzzIaI773FcSDN?si=a8cb4afa50394498",
+                "type": "spotify"
+              }
+            ]
+          },
+          "EYV0": {
+            "name": "Lento",
+            "links": [
+              {
+                "url": "https://youtu.be/-r5H7sGkI7k?si=y4vGIB7oHRkY_Ql-&t=10",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/7o5lsn5XgjgkT310UhBPWl?si=dda078719b4042cf",
+                "type": "spotify"
+              }
+            ]
+          },
+          "2VFQ": {
+            "name": "Allegretto",
+            "links": [
+              {
+                "url": "https://youtu.be/fciaxuZY6zA?si=1vflckWOvKWe_F70&t=1322",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/14JNiNY7BLqStfV6yGZa5E?si=37bce11f27744042",
+                "type": "spotify"
+              }
+            ]
+          },
+          "JSZK": {
+            "name": "Allegro",
+            "links": [
+              {
+                "url": "https://youtu.be/l7J7L53b8U0?si=2ZgXx28gWCfjPyeV&t=1059",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/5w7cDT18Nlraxm4pjZrI8r?si=62b9b7950d134d6b",
+                "type": "spotify"
+              }
+            ]
+          },
+          "T9UR": {
+            "name": "Presto",
+            "links": [
+              {
+                "url": "https://youtu.be/5b4-rXhKpMM?si=PYl-RrMCVv04xgnr&t=1082",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/4LIxDUJ0e8BVpVkwliUcj2?si=2febae9f6b2545c5",
+                "type": "spotify"
+              }
+            ]
+          },
+          "F80Z": {
+            "name": "Prestissimo",
+            "links": [
+              {
+                "url": "https://youtu.be/cSvSOWbNNMI?si=IXab67GI7fZVnVbS&t=876",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/11UUh15tuIo01C20bWPGp8?si=c49b492a26424a35",
+                "type": "spotify"
+              }
+            ]
+          },
+          "IGLC": {
+            "name": "Andante",
+            "links": [
+              {
+                "url": "https://youtu.be/8TDtC5TvNoM?si=U7WoFz5elSIt9T9n",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/0VYNioqNRTj8NfrPilmWtj?si=3a8a9adf657443fb",
+                "type": "spotify"
+              }
+            ]
+          },
+          "4JXI": {
+            "name": "Andantino",
+            "links": [
+              {
+                "url": "https://youtu.be/5I4EbVrTU_I?si=KdtnIf8XEyJFRVsV&t=649",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/3iABJeCzRtYOktNS5GUTn8?si=dda191a772a54f36",
+                "type": "spotify"
+              }
+            ]
+          },
+          "QSJA": {
+            "name": "Moderato",
+            "links": [
+              {
+                "url": "https://youtu.be/d7ddJ4Tx7Js?si=N_r815DhROE7aVn8",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/7staad9eqX2BbnJBQ8m9tc?si=f4929b88d9634928",
+                "type": "spotify"
+              }
+            ]
+          }
+        }
+      },
+      "Section802 ": {
+        "name": "Karakterord",
+        "songs": {
+          "JP2D": {
+            "name": "Agitato",
+            "links": [
+              {
+                "url": "https://youtu.be/ESHhp1sHl80?si=-alPZ8gzMdhKwzpI&t=213",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/0aWL1HPjQDlLVwvNgw7sZD?si=4846c891f4cd45e3",
+                "type": "spotify"
+              }
+            ]
+          },
+          "0H94": {
+            "name": "Appasionata",
+            "links": [
+              {
+                "url": "https://youtu.be/phygv_Et9sQ?si=AKFTsx-PPmoZrA48&t=4",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/17TfU2JKXPdzcK7rMwpQOi?si=511ed294df2b446b",
+                "type": "spotify"
+              }
+            ]
+          },
+          "PQ82": {
+            "name": "Cantabile",
+            "links": [
+              {
+                "url": "https://youtu.be/2oFqQ-CYxZc?si=3kJ6l0nNWXwUYuds&t=8",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/5Mo83AxlTzrGpkERKjnmZg?si=04c8340801c344e3",
+                "type": "spotify"
+              }
+            ]
+          },
+          "69WN": {
+            "name": "Capriccioso",
+            "links": [
+              {
+                "url": "https://youtu.be/4UUX-tYPDhg?si=N7GcFcpqX9A3Xj4D",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/6jnhLpA6LtABoQridFxYpW?si=5f9b6c445c5a4013",
+                "type": "spotify"
+              }
+            ]
+          },
+          "MGME": {
+            "name": "Con brio",
+            "links": [
+              {
+                "url": "https://youtu.be/os4N-dR7CuY?si=c52Jgzz0kCYg6dci&t=486",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/1bzIVMHVaRg1RMmoKQRqtQ?si=612c2985be2049b2",
+                "type": "spotify"
+              }
+            ]
+          },
+          "KKQL": {
+            "name": "Con fuoco",
+            "links": [
+              {
+                "url": "https://youtu.be/RHebtt6JPu4?si=nFHQNEWoWY2MtoOJ&t=457",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/4MpxVbswZyqhNv4q1rRnxu?si=398bea915582455e",
+                "type": "spotify"
+              }
+            ]
+          },
+          "Q86O": {
+            "name": "Dolce",
+            "links": [
+              {
+                "url": "https://youtu.be/0UhnfWzOCMo?si=0lSMisXgs3V9jOKp&t=549",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/558tCnZEEtAurs2ef4z2pq?si=f63afe62ffd244db",
+                "type": "spotify"
+              }
+            ]
+          },
+          "I80M": {
+            "name": "Doloroso",
+            "links": [
+              {
+                "url": "https://youtu.be/7aLF-1tJgJw?si=jaUq5VXk35jied0u&t=267",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/568mpeGMaUzIYpAiRrJxFQ?si=24155a3b6c1346af",
+                "type": "spotify"
+              }
+            ]
+          },
+          "YLIQ": {
+            "name": "Espressivo",
+            "links": [
+              {
+                "url": "https://youtu.be/TjQb4-03ojk?si=XAGz75BGU4mfWR-y",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/2yklHsegVYjGZjGhsuaTUa?si=d60e7e895fc449e0",
+                "type": "spotify"
+              }
+            ]
+          },
+          "HCMA": {
+            "name": "Giocoso",
+            "links": [
+              {
+                "url": "https://youtu.be/4hBMEahqqgM?si=eoTI-gHLAe9-wqY8&t=484",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/02dZVjov4rOspwpw0V59TV?si=d7e741b05dd5482f",
+                "type": "spotify"
+              }
+            ]
+          },
+          "0I5X": {
+            "name": "Grazioso",
+            "links": [
+              {
+                "url": "https://youtu.be/Vh49bRLym-Y?si=VmEdFAj4RpHeD6oU&t=394",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/29Cil7FHMU7JzdHc2ZDZLJ?si=0376b58e3edc4a2c",
+                "type": "spotify"
+              }
+            ]
+          },
+          "454I": {
+            "name": "Impetuoso",
+            "links": [
+              {
+                "url": "https://youtu.be/ulrKcPZU9Es?si=GDfuKeLf81n7_jYE&t=982",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/7JxxT43y0RFSWLmgSIpNDf?si=a1ee82ad0a2642ab",
+                "type": "spotify"
+              }
+            ]
+          },
+          "458Y": {
+            "name": "Leggiero",
+            "links": [
+              {
+                "url": "https://youtu.be/r9JpKXBw5Z4?si=45kFysdusb-bst2T&t=863",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/20jjHtgXYIhF51q5a8SztT?si=c71b47389b454fa9",
+                "type": "spotify"
+              }
+            ]
+          },
+          "LFAF": {
+            "name": "Maestoso",
+            "links": [
+              {
+                "url": "https://youtu.be/-61NhyA3izc?si=C7vv7rrGJ4Bcp19B&t=1658",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/1li5uDduwFLRfDmS8BE1kJ?si=a97a770618d94e93",
+                "type": "spotify"
+              }
+            ]
+          },
+          "ZJBH": {
+            "name": "Mosso",
+            "links": [
+              {
+                "url": "https://youtu.be/QLbj2wURl6k?si=w3i8q3qyuet4YSkB&t=247",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/4afIK3Z6ExPGIe3xLiSCpP?si=bbd38d1040b7418c",
+                "type": "spotify"
+              }
+            ]
+          },
+          "HEHM": {
+            "name": "Scherzando",
+            "links": [
+              {
+                "url": "https://youtu.be/qD5rklZehrw?si=yor8A3VTHbW3lqIu&t=1506",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/2nCyKiQUCI4XqIP9w4wgYZ?si=abdaf14ba07647b8",
+                "type": "spotify"
+              }
+            ]
+          },
+          "ZD6T": {
+            "name": "Semplice",
+            "links": [
+              {
+                "url": "https://youtu.be/Zjy5TjR3D1c?si=khYSv04Ld0-w4eef&t=958",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/2s4BJHKikC7nVROrIc8mns?si=5a4c00eab88d4401",
+                "type": "spotify"
+              }
+            ]
+          },
+          "QWIL": {
+            "name": "Sotto voce (fra takt 8)",
+            "links": [
+              {
+                "url": "https://youtu.be/m5FXV1zrNh4?si=lG6glj6SlUUYWRqR&t=1398",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/1f9INE3upWBEyjwPNuBlZa?si=348c368554264414",
+                "type": "spotify"
+              }
+            ]
+          },
+          "WW1G": {
+            "name": "Tranquillo",
+            "links": [
+              {
+                "url": "https://youtu.be/BunczhLlJAo?si=Bm2V0CmvasnM6zks&t=2",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/011T7XdfwzlgLSytJBVV19?si=b63240ccf43142b1",
+                "type": "spotify"
+              }
+            ]
+          },
+          "25NB": {
+            "name": "Vivace",
+            "links": [
+              {
+                "url": "https://youtu.be/ixpfgm_xxSE?si=mJvj6O4KzP6ubVCL&t=916https://youtu.be/BunczhLlJAo?si=Bm2V0CmvasnM6zks&t=2",
+                "type": "youtube"
+              },
+              {
+                "url": "https://open.spotify.com/track/011T7XdfwzlgLSytJBVV19?si=b63240ccf43142b1",
+                "type": "spotify"
+              }
+            ]
+          }
+        }
+      },
+      "Section803 ": {
+        "name": "Dummy",
+        "songs": {
+          "zzzz": {
+            "name": "",
+            "links": [
+              {
+                "url": 1,
+                "type": "youtube"
+              },
+              {
+                "url": 2,
+                "type": "spotify"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
