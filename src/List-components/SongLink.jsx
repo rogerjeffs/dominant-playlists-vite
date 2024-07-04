@@ -13,6 +13,7 @@ function SongLink({
 }) {
   const config = songTypeConfig[link.type];
   const linkstyle = { color: active ? "white" : "" };
+  console.log(linkstyle);
   const embedSpotify = false;
   const {
     setIsPlayingAudio,
@@ -33,15 +34,14 @@ function SongLink({
       </a>
     );
   } else {
-    return config.name !== "mp3" &&
+    return (config.name !== "mp3" &&
       config.name !== "YouTube" &&
-      config.name !== "video" &&
-      config.name === "Spotify" &&
-      !embedSpotify ? (
+      config.name !== "video") ||
+      (config.name === "Spotify" && !embedSpotify) ? (
       <a
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer noopener'
+        rel='noreferrer'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}
@@ -76,7 +76,7 @@ function SongLink({
         }}
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer noopener'
+        rel='noreferrer'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}
