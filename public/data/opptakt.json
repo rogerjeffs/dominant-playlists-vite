@@ -68,6 +68,37 @@
                 "type": "video"
               }
             ]
+          },
+          "YXON": {
+            "name": "Straight-Swing",
+            "links": [
+              {
+                "url": "/media/opptakt/video/2-straight og swing.mp4",
+                "type": "video"
+              }
+            ]
+          },
+          "7A5S": {
+            "name": "Straight-Swing i rask tempo",
+            "links": [
+              {
+                "url": "/media/opptakt/video/2-straight og swing rask tempo.mp4",
+                "type": "video"
+              }
+            ]
+          },
+          "PDZA": {
+            "name": "Oppgave: Varierende grad av swing",
+            "links": [
+              {
+                "url": "https://open.spotify.com/playlist/4qUOavMmYWV7hloW9VDdsp?si=3248058f33a7406f",
+                "type": "spotify"
+              },
+              {
+                "url": "https://youtube.com/playlist?list=PLsL_rLcySkatDm-iWRxV4u3yIIutVP_On&si=f-rMBQcr0G8BxXz5",
+                "type": "youtube"
+              }
+            ]
           }
         }
       }
@@ -172,6 +203,79 @@
     "name": "Tegn og uttrykk",
     "sections": {
       "Section801": {
+        "name": "Artikulasjon og dynamikk",
+        "songs": {
+          "D3MF": {
+            "name": "Tegn og symboler",
+            "links": [
+              {
+                "url": "https://youtu.be/2iaprGXqViY?si=xZj2vTfih9_JTri0&t=1",
+                "type": "youtube"
+              }
+            ]
+          }
+        }
+      },
+      "Section802 ": {
+        "name": "Styrkeendringer",
+        "songs": {
+          "SHR3": {
+            "name": "Raske endringer",
+            "links": [
+              {
+                "url": "https://youtu.be/2iaprGXqViY?si=xZj2vTfih9_JTri0&t=1",
+                "type": "youtube"
+              }
+            ]
+          },
+          "5VFA": {
+            "name": "Gradvis crescendo (poco a poco) Beethoven",
+            "links": [
+              {
+                "url": "https://youtu.be/3SJJynLJmes?si=k2QS7BKJXNhHv_X9&t=881",
+                "type": "youtube"
+              }
+            ]
+          },
+          "ZFEJ": {
+            "name": "Gradvis crescendo Ellington ",
+            "links": [
+              {
+                "url": "https://youtu.be/JCh05EUskBU?si=6NjrtXIiN-p04cY0&t=1",
+                "type": "youtube"
+              }
+            ]
+          },
+          "JYYQ": {
+            "name": "Gradvis crescendo fra Royal Wedding ",
+            "links": [
+              {
+                "url": "https://youtu.be/faN0kPOQykM?si=5Lv0JAIBYJyZQOY5&t=1",
+                "type": "youtube"
+              }
+            ]
+          },
+          "2BOI": {
+            "name": "Gradvis diminuendo Sibelius",
+            "links": [
+              {
+                "url": "https://youtu.be/yyfb_wZ3Bag?si=Qp0WVTmsuVcKOLYN&t=1654",
+                "type": "youtube"
+              }
+            ]
+          },
+          "2CI1": {
+            "name": "Gradvis diminuendo Ellington",
+            "links": [
+              {
+                "url": "https://youtu.be/WNxKZpLDxkM?si=IDoQCrZSF6jOM2O6&t=1",
+                "type": "youtube"
+              }
+            ]
+          }
+        }
+      },
+      "Section803": {
         "name": "Tempobetgnelser",
         "songs": {
           "SLKK": {
@@ -187,7 +291,7 @@
               }
             ]
           },
-          "XZXY": {
+          "WNYY": {
             "name": "Grave",
             "links": [
               {
@@ -332,7 +436,7 @@
           }
         }
       },
-      "Section802 ": {
+      "Section804": {
         "name": "Karakterord",
         "songs": {
           "JP2D": {
@@ -597,7 +701,7 @@
           }
         }
       },
-      "Section803 ": {
+      "Section805": {
         "name": "Dummy",
         "songs": {
           "zzzz": {

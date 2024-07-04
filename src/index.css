@@ -64,7 +64,9 @@ body,
   padding-top: 6px;
 }
 .section-active {
-  --dummy-style: foo;
+  /* --dummy-style: foo; */
+  border: dashed 0.5px;
+  border-top: none;
 }
 .section-inactive {
   --dummy-style: foo;

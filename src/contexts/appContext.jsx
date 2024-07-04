@@ -11,8 +11,8 @@ function AppProvider({ children }) {
   const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
-  const [{ data, loading, error }] = useAxios("/data/opptakt.json");
-  // const [{ data, loading, error }] = useAxios("/data/samstemt.json");
+  // const [{ data, loading, error }] = useAxios("/data/opptakt.json");
+  const [{ data, loading, error }] = useAxios("/data/samstemt.json");
 
   // const lists = strToObj(data); //strToObj not needed for json
   const lists = data;
