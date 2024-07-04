@@ -28,6 +28,10 @@ function Section({ id, section, chapter, chapterId }) {
   return (
     <div
       className={"section " + (isOpen ? "section-active" : "section-inactive")}
+      style={{
+        borderColor: isOpen ? chapterColor(chapterId).light : "",
+        backgroundColor: isOpen ? chapterColor(chapterId).lightest : "",
+      }}
       id={"chapter-" + id}
       ref={ref}>
       {section.name !== "" && (
@@ -38,7 +42,7 @@ function Section({ id, section, chapter, chapterId }) {
           onClick={() => handleClick()}
           style={isOpen ? activeStyle : null}>
           {section.name}
-          <Chevron color={chapterColor(chapterId).main} isOpen={isOpen} />
+          <Chevron color={chapterColor(chapterId).dark} isOpen={isOpen} />
         </h5>
       )}
       <div

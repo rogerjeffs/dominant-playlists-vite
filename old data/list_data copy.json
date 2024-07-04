@@ -1,0 +1,198 @@
+{
+  "Kap1": {
+    "name": "Notesystemet",
+    "color": "#7a8dff",
+    "sections": {
+      "Section101": {
+        "name": "",
+        "songs": {
+          "39RC": {
+            "name": "Trommesett",
+            "links": [
+              {
+                "url": "media/opptakt/video/1-trommesett.mp4",
+                "type": "video"
+              }
+            ]
+          },
+          "0292": {
+            "name": "OppgaverPDF 1.1 Notenavn",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "0AH9": {
+            "name": "OppgaverPDF 1.2 G- og F-nøkkel",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.02.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "GH72": {
+            "name": "OppgaverPDF 1.3 Identiske toner",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.03.pdf",
+                "type": "pdf"
+              }
+            ]
+          },
+          "4GTJ": {
+            "name": "OppgaverPDF 1.4 Oktavleie",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 1.04.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap2": {
+    "name": "Noteverdier",
+    "color": "#a9b79b",
+    "sections": {
+      "Section201": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Noteverdier",
+            "links": [
+              {
+                "url": "media/samstemt/video/2-noteverdier.mp4",
+                "type": "video"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap3": {
+    "name": "Fortegn",
+    "color": "#a9b79b",
+    "sections": {
+      "Section201": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 3.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap4": {
+    "name": "Takt",
+    "color": "#a9b79b",
+    "sections": {
+      "Section401": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap5": {
+    "name": "Intervaller",
+    "color": "#a9b79b",
+    "sections": {
+      "Section501": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap6": {
+    "name": "Tonalitet",
+    "color": "#a9b79b",
+    "sections": {
+      "Section601": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap7": {
+    "name": "Akkorder",
+    "color": "#a9b79b",
+    "sections": {
+      "Section701": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Kap8": {
+    "name": "Tegn og uttrykk",
+    "color": "#a9b79b",
+    "sections": {
+      "Section801": {
+        "name": "",
+        "songs": {
+          "MQIB": {
+            "name": "Test",
+            "links": [
+              {
+                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

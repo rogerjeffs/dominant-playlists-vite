@@ -13,9 +13,12 @@ function SongLink({
 }) {
   const config = songTypeConfig[link.type];
   const linkstyle = { color: active ? "white" : "" };
+  console.log(linkstyle);
+  const embedSpotify = false;
   const {
     setIsPlayingAudio,
     setIsPlayingVideo,
+    setIsPlayingSpotify,
     setNowPlaying,
     setSearchParams,
   } = useCtxtData();
@@ -31,13 +34,14 @@ function SongLink({
       </a>
     );
   } else {
-    return config.name !== "mp3" &&
+    return (config.name !== "mp3" &&
       config.name !== "YouTube" &&
-      config.name !== "video" ? (
+      config.name !== "video") ||
+      (config.name === "Spotify" && !embedSpotify) ? (
       <a
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer noopener'
+        rel='noreferrer'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}
@@ -49,10 +53,17 @@ function SongLink({
           if (config.name === "mp3") {
             setIsPlayingVideo(false);
             setIsPlayingAudio(true);
+            setIsPlayingSpotify(false);
           }
           if (config.name === "YouTube" || config.name === "video") {
             setIsPlayingAudio(false);
+            setIsPlayingSpotify(false);
             setIsPlayingVideo(true);
+          }
+          if (config.name === "Spotify") {
+            setIsPlayingAudio(false);
+            setIsPlayingVideo(false);
+            setIsPlayingSpotify(true);
           }
           setNowPlaying({
             playUrl: link.url,
@@ -65,7 +76,7 @@ function SongLink({
         }}
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer noopener'
+        rel='noreferrer'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}

@@ -60,11 +60,13 @@ body,
 }
 .section-name-active {
   cursor: pointer;
-
+  padding-left: 8px;
   padding-top: 6px;
 }
 .section-active {
-  --dummy-style: foo;
+  /* --dummy-style: foo; */
+  border: dashed 0.5px;
+  border-top: none;
 }
 .section-inactive {
   --dummy-style: foo;
@@ -130,6 +132,15 @@ body,
   width: 100%;
   position: absolute;
 }
+.spotify {
+  border-radius: 12px;
+  position: fixed;
+  bottom: 1%;
+  width: 640px;
+  max-width: calc(100% - 70px);
+  border: none;
+}
+
 .chevron {
   flex-shrink: 0;
   margin-right: 6px;

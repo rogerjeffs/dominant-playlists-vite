@@ -7,11 +7,14 @@ const appContext = createContext();
 function AppProvider({ children }) {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isPlayingVideo, setIsPlayingVideo] = useState(false);
+  const [isPlayingSpotify, setIsPlayingSpotify] = useState(false);
   const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
+  // const [{ data, loading, error }] = useAxios("/data/opptakt.json");
   const [{ data, loading, error }] = useAxios("/data/samstemt.json");
-  // const lists = strToObj(data); //strToObj not needed for jsons
+
+  // const lists = strToObj(data); //strToObj not needed for json
   const lists = data;
   if (loading || !lists)
     return (
@@ -61,6 +64,7 @@ function AppProvider({ children }) {
   function closePlayers() {
     setIsPlayingAudio(false);
     setIsPlayingVideo(false);
+    setIsPlayingSpotify(false);
     setNowPlaying({});
   }
   // const defaultChapterId = query
@@ -86,8 +90,10 @@ function AppProvider({ children }) {
         error,
         isPlayingAudio,
         isPlayingVideo,
+        isPlayingSpotify,
         setIsPlayingAudio,
         setIsPlayingVideo,
+        setIsPlayingSpotify,
         nowPlaying,
         setNowPlaying,
         searchParams,
