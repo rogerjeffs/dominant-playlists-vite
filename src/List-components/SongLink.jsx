@@ -41,7 +41,7 @@ function SongLink({
       <a
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer'
+        rel='noreferrer noopener'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}
@@ -76,7 +76,7 @@ function SongLink({
         }}
         href={encodeURI(link.url)}
         target='_blank'
-        rel='noreferrer'
+        rel='noreferrer noopener'
         title={config.hovertext}
         style={linkstyle}>
         {config.name}

@@ -10,7 +10,16 @@ function Section({ id, section, chapter, chapterId }) {
   const isOpen = currentSectionId === id || section.name === "";
   const lightColor = chapterColor(chapterId).light;
   const activeStyle = {
-    backgroundColor: isOpen ? lightColor : "inherit",
+    backgroundColor: lightColor,
+    marginTop: "10px",
+    marginBottom: "10px",
+    fontSize: "15px",
+  };
+  const defaultStyle = {
+    backgroundColor: "inherit",
+    marginTop: "5px",
+    marginBottom: "5px",
+    // fontSize:s "14.5px",
   };
   const ref = useRef(null);
   const [clicked, setClicked] = useState(false);
@@ -40,7 +49,7 @@ function Section({ id, section, chapter, chapterId }) {
             !isOpen ? "section-name" : "section-name section-name-active"
           }
           onClick={() => handleClick()}
-          style={isOpen ? activeStyle : null}>
+          style={isOpen ? activeStyle : defaultStyle}>
           {section.name}
           <Chevron color={chapterColor(chapterId).dark} isOpen={isOpen} />
         </h5>
