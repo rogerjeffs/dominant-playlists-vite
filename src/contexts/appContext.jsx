@@ -11,8 +11,10 @@ function AppProvider({ children }) {
   const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("s");
-  // const [{ data, loading, error }] = useAxios("/data/opptakt.json");
-  const [{ data, loading, error }] = useAxios("/data/samstemt.json");
+  const book = searchParams.get("b")
+  const [{ data, loading, error }] = useAxios(`${book==="opptakt"?"/data/opptakt.json":"/data/samstemt.json"}`);
+  const title=book==="opptakt"?"Opptakt media og ressurser":"Samstemt media og ressurser"
+  // const [{ data, loading, error }] = useAxios("/data/samstemt.json");
 
   // const lists = strToObj(data); //strToObj not needed for json
   const lists = data;
@@ -86,6 +88,7 @@ function AppProvider({ children }) {
     <appContext.Provider
       value={{
         lists,
+        title,
         loading,
         error,
         isPlayingAudio,
