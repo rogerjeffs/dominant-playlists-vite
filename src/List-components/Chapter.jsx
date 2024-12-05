@@ -3,8 +3,8 @@ import { useCtxtData } from "../contexts/appContext";
 import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
-function Chapter({ id, chapter }) {
-  const { currentChapterId, chapterColor, setSearchParams, closePlayers } =
+function Chapter({ id, chapter}) {
+  const { currentChapterId, chapterColor, setSearchParams, closePlayers,book,hideTitle } =
     useCtxtData();
   const chapterId = id;
   const isOpen = currentChapterId === id;
@@ -16,7 +16,8 @@ function Chapter({ id, chapter }) {
   const [clicked, setClicked] = useState(false);
 
   function handleClick() {
-    setSearchParams(!isOpen ? { kap: id } : {});
+   
+    setSearchParams(!isOpen ? { kap: id,b: book,t:hideTitle } : {b:book,t:hideTitle});
     setClicked(true);
     closePlayers();
   }

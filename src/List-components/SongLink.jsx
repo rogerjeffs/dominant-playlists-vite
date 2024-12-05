@@ -13,7 +13,7 @@ function SongLink({
 }) {
   const config = songTypeConfig[link.type];
   const linkstyle = { color: active ? "white" : "" };
-  console.log(linkstyle);
+
   const embedSpotify = false;
   const {
     setIsPlayingAudio,
@@ -21,6 +21,8 @@ function SongLink({
     setIsPlayingSpotify,
     setNowPlaying,
     setSearchParams,
+    book,
+    hideTitle
   } = useCtxtData();
 
   if (config.download) {
@@ -72,7 +74,7 @@ function SongLink({
             chapterName: chapter.name,
             sectionName: section.name,
           });
-          setSearchParams({ s: id, kap: chapterId, sec: sectionId });
+          setSearchParams({ s: id, kap: chapterId, sec: sectionId,b:book,t:hideTitle });
         }}
         href={encodeURI(link.url)}
         target='_blank'

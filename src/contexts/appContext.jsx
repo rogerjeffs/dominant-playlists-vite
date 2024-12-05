@@ -1,5 +1,5 @@
 import useAxios from "axios-hooks";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import chapterColor from "../assets/chapterColor";
 const appContext = createContext();
@@ -10,12 +10,13 @@ function AppProvider({ children }) {
   const [isPlayingSpotify, setIsPlayingSpotify] = useState(false);
   const [nowPlaying, setNowPlaying] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
-  const query = searchParams.get("s");
-  const book = searchParams.get("b")
+  const query = searchParams.get("s");  
+  const book = searchParams.get("b")==="opptakt"?"opptakt":"samstemt"
+  const hideTitle= searchParams.get("t")==="true"
   const [{ data, loading, error }] = useAxios(`${book==="opptakt"?"/data/opptakt.json":"/data/samstemt.json"}`);
   const title=book==="opptakt"?"Opptakt media og ressurser":"Samstemt media og ressurser"
-  // const [{ data, loading, error }] = useAxios("/data/samstemt.json");
 
+  // const [{ data, loading, error }] = useAxios("/data/samstemt.json");
   // const lists = strToObj(data); //strToObj not needed for json
   const lists = data;
   if (loading || !lists)
@@ -84,10 +85,12 @@ function AppProvider({ children }) {
     ? defaultSectionId
     : searchParams.get("sec");
 
+
   return (
     <appContext.Provider
       value={{
         lists,
+        book,
         title,
         loading,
         error,
@@ -105,6 +108,7 @@ function AppProvider({ children }) {
         currentSectionId,
         chapterColor,
         closePlayers,
+        hideTitle,
       }}>
       {children}
     </appContext.Provider>

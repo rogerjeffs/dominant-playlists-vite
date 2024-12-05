@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Chevron from "../svg/Chevron";
 
 function Section({ id, section, chapter, chapterId }) {
-  const { chapterColor, currentSectionId, setSearchParams, closePlayers } =
+  const { chapterColor, currentSectionId, setSearchParams, closePlayers,book,hideTitle } =
     useCtxtData();
   const sectionId = id;
   const isOpen = currentSectionId === id || section.name === "";
@@ -24,7 +24,7 @@ function Section({ id, section, chapter, chapterId }) {
   const ref = useRef(null);
   const [clicked, setClicked] = useState(false);
   function handleClick() {
-    setSearchParams(!isOpen ? { kap: chapterId, sec: id } : { kap: chapterId });
+    setSearchParams(!isOpen ? { kap: chapterId, sec: id,b:book,t:hideTitle } : { kap: chapterId,b:book,t:hideTitle });
     setClicked(true);
     closePlayers();
   }
