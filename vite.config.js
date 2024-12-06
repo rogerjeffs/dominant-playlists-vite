@@ -8,7 +8,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     base: "./",
-    outDir:"public_html",    
+    outDir:"public_html",
+    assetsDir:"media_assets"    
   },
   base: "./",  
 });
