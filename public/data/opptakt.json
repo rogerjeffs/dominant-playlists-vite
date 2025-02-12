@@ -797,17 +797,8 @@
         "name": "Tegn og uttrykk",
         "sections": {
             "Section801": {
-                "name": "",
+                "name": "Buer og artikulasjon",
                 "songs": {
-                    "DCS0": {
-                        "name": "Chopin Ballade Nr 1 op 23",
-                        "links": [
-                            {
-                                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
-                                "type": "youtube"
-                            }
-                        ]
-                    },
                     "3LVK": {
                         "name": "Buer",
                         "links": [
@@ -843,7 +834,12 @@
                                 "type": "video"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section802": {
+                "name": "Dynamikk",
+                "songs": {
                     "NDT5": {
                         "name": "Crescendo diminuendo",
                         "links": [
@@ -915,7 +911,12 @@
                                 "type": "youtube"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section803": {
+                "name": "Tempo",
+                "songs": {
                     "R986": {
                         "name": "Adagio",
                         "links": [
@@ -1071,7 +1072,12 @@
                                 "type": "spotify"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section804": {
+                "name": "Karakter",
+                "songs": {
                     "J9O9": {
                         "name": "Agitato",
                         "links": [
@@ -1331,7 +1337,12 @@
                                 "type": "spotify"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section805": {
+                "name": "Tempo endringer",
+                "songs": {
                     "78NJ": {
                         "name": "Rallantando, Ritardando",
                         "links": [
@@ -1376,7 +1387,12 @@
                                 "type": "youtube"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section806": {
+                "name": "Ornamentikk",
+                "songs": {
                     "43LO": {
                         "name": "Ornamentikk",
                         "links": [
@@ -1403,7 +1419,12 @@
                                 "type": "youtube"
                             }
                         ]
-                    },
+                    }
+                }
+            },
+            "Section807": {
+                "name": "Oppgaver",
+                "songs": {
                     "CMGS": {
                         "name": "Oppgave 8.5.1 bestemme tempo",
                         "links": [
@@ -1414,11 +1435,20 @@
                         ]
                     },
                     "7MTR": {
-                        "name": "Oppgave 8.7.1 Chopin partitur",
+                        "name": "Oppgave 8.7.1 Chopin Ballade Nr 1 op 23 pdf",
                         "links": [
                             {
                                 "url": "media/opptakt/pdf/OppgaverPDF_8.7.1_chopin_op23_nr_ 1.pdf",
                                 "type": "pdf"
+                            }
+                        ]
+                    },
+                    "DCS0": {
+                        "name": "Chopin Ballade Nr 1 op 23 video",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
+                                "type": "youtube"
                             }
                         ]
                     }
