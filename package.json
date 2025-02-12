@@ -6,7 +6,7 @@
   "homepage": ".",
   "scripts": {
    "dev": "vite --host",
-    "build": "vite build  && rm -r public_html/media/ && npm run rename",
+    "build": "vite build  && rm -r public_html/media/samstemt && rm -r public_html/media/opptakt/pdf_bak && rm -r public_html/media/opptakt/video_bak && npm run rename",
     "rename": "node -e \"require('fs').rename('public_html/index.html', 'public_html/media.html', () => {})\"",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

@@ -1,724 +1,1429 @@
 {
-  "Kap1": {
-    "name": "Notesystemet",
-    "sections": {
-      "Section101": {
-        "name": "",
-        "songs": {
-          "39RC": {
-            "name": "Trommesett",
-            "links": [
-              {
-                "url": "media/opptakt/video/1-trommesett.mp4",
-                "type": "video"
-              }
-            ]
-          },
-          "0292": {
-            "name": "OppgaverPDF 1.1 Notenavn",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 1.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          },
-          "0AH9": {
-            "name": "OppgaverPDF 1.2 G- og F-nøkkel",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 1.02.pdf",
-                "type": "pdf"
-              }
-            ]
-          },
-          "GH72": {
-            "name": "OppgaverPDF 1.3 Identiske toner",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 1.03.pdf",
-                "type": "pdf"
-              }
-            ]
-          },
-          "4GTJ": {
-            "name": "OppgaverPDF 1.4 Oktavleie",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 1.04.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
+    "Kap1": {
+        "name": "Notesystemet",
+        "sections": {
+            "Section101": {
+                "name": "",
+                "songs": {
+                    "2NVA": {
+                        "name": "Trommesett demo  ",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_1_01_trommesett.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "W02Z": {
+                        "name": "Oppgaver 1.1.1 - 1.1.3 Notesystemet",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_1.1.1_1.1.3_Notesystemet.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "VB3W": {
+                        "name": "Oppgaver 1.2.1 - 1.2.4 Notesystemet",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_1.2.1_1.2.4_Notesystemet.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    }
+                }
+            }
         }
-      }
+    },
+    "Kap2": {
+        "name": "Noteverdier",
+        "sections": {
+            "Section201": {
+                "name": "",
+                "songs": {
+                    "ZDR4": {
+                        "name": "Noteverdier demo",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_2_01_noteverdier.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "4HH5": {
+                        "name": "Debussy 3 mot 2",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/Yh36PaE-Pf0?si=pGBieIE68omgYIF2",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "8FI3": {
+                        "name": "Straight og swing",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_2_02_straight_og_swing.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "PSFP": {
+                        "name": "Oppgaver 2.1.1 - 2.1.4 Noteverdier 1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_2.1.1_2.1.4_Noteverdier.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "RI45": {
+                        "name": "Oppgaver 2.2.1 - 2.3.1 Noteverdier 2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_2.2.1_2.3.1_Noteverdier.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "8XBF": {
+                        "name": "Oppgaver 2.3.1 Bindebuer",
+                        "links": [
+                            {
+                                "url": "media/opptakt/audio/OppgaverMP3_2.3.1_bindebuer.mp3",
+                                "type": "mp3"
+                            }
+                        ]
+                    },
+                    "Y139": {
+                        "name": "Oppgaver 2.4.2 Polyrytme",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_2.4.2_polyrytme.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "XZ9P": {
+                        "name": "Oppgaver 2.5.1 Grader av sving",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/playlist/4qUOavMmYWV7hloW9VDdsp?si=7a642bd3d6854ee4",
+                                "type": "spotify"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap3": {
+        "name": "Fortegn",
+        "sections": {
+            "Section201": {
+                "name": "",
+                "songs": {
+                    "N3UH": {
+                        "name": "Oppgaver 3.1.1 - 3.1.4",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_3.1.1_3.1.4_Fortegn.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap4": {
+        "name": "Takt",
+        "sections": {
+            "Section401": {
+                "name": "",
+                "songs": {
+                    "OITY": {
+                        "name": "Pulsens noteverdi",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_01_pulsens_noteverdi.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "WT2P": {
+                        "name": "Sammensatt taktart",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_02_sammensatt_taktart.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "0NE5": {
+                        "name": "Synkope",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_03_synkope.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "S960": {
+                        "name": "Heteropodisk taktart",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_04_heteropodisk taktart.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "TLO4": {
+                        "name": "Hemiol",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_05_Hemiol.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "GB5I": {
+                        "name": "Taktrykk ",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_4_06_taktrykk.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "D0QM": {
+                        "name": "Oppgaver 4.1.1 - 4.3.3",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_4.1.1_4.3.3_Taktart.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "FAHR": {
+                        "name": "Oppgave 4.1.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_4.1.1_puls.mp4",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "FN9Z": {
+                        "name": "Oppgaver 4.5.1 - 4.6.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_4.5.1_4.6.1_Navigasjon_og_pauser.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap5": {
+        "name": "Intervaller",
+        "sections": {
+            "Section501": {
+                "name": "",
+                "songs": {
+                    "HZ9J": {
+                        "name": "Rene intervaller",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_5_01_rene_intervaller.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "R1PR": {
+                        "name": "Store liten ters sekst",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_5_02_stor_liten_ters_sekst.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "7D8O": {
+                        "name": "Stor og liten vs dur og moll",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_5_03_stor_liten_vs_dur_moll.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "DD6U": {
+                        "name": "Stor liten sekund septim",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_5_04_stor_liten_sekund_septim.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "MQNL": {
+                        "name": "Dissonanser",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_5_05_dissonanser.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "8QK7": {
+                        "name": "Oppgaver 5.1.1 - 5.1.3",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_5.1.1_5.1.3_Intervaller.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "W6UD": {
+                        "name": "Øvingsmatriser",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_Intervall_Matriser.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "NBHO": {
+                        "name": "Oppgaver 5.3.1 - 5.3.12",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_5.3.1_5.3.12_Intervaller.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap6": {
+        "name": "Tonalitet",
+        "sections": {
+            "Section601": {
+                "name": "",
+                "songs": {
+                    "JLMC": {
+                        "name": "Tonal karakter",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_01_tonal_karakter.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "50XR": {
+                        "name": "Durskala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_02_durskala.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "SM7V": {
+                        "name": "Mollskala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_03_mollskalal.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "WFPS": {
+                        "name": "Ledetone",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_04_ledetone.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "WDDM": {
+                        "name": "Løse og faste fortegn",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_05_løse_faste_fortegn.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "89S1": {
+                        "name": "Durskala og toneartsangivelse",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_06_durskala_toneart.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "ILD4": {
+                        "name": "Høy og lav 7. trinn i moll",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_07_høy_lav_7_trinn_moll.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "LOGI": {
+                        "name": "Melodisk mollskala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_08_melodisk_moll.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "QY34": {
+                        "name": "Harmonisk mollskala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_09_harmonisk_moll.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "N9AG": {
+                        "name": "Sigøyner mollskala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_10_sigoynermoll.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "G3K5 ": {
+                        "name": "Lydisk mode",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/4jLv3tDBu8ww2R07DvL12s?si=fef84957c6864b4a",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/dLxpNiF0YKs?si=7bbTucndxPAs26WM",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "U4ZO": {
+                        "name": "Miksolydisk mode",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/1H7gMYGykdtwZOV6s1N0by?si=ab98e61c8acf4e16",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/B_RQv7OMJFI?si=5Gm82IUYDHQ20dJh",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "U8LU": {
+                        "name": "Dorisk mode eks 1",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS?si=b031301d4f1b4d67",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/OPf0YbXqDm0?si=RLz9WQPxdmkRYTaN",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "FO2C": {
+                        "name": "Dorisk mode eks 2",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/5GjPQ0eI7AgmOnADn1EO6Q?si=263a7fe241e74446",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/HuS5NuXRb5Y?si=XmD8aBh4F2OcWGqx",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "H08B": {
+                        "name": "Frygisk mode eks 1",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/5D2mYZuzcgjpchVY1pmTPh?si=cb076b32e4f14c74",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/SRcnnId15BA?si=oBGcGzoWKbVz3x3e",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "KPO1": {
+                        "name": "Frygisk mode eks 2",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/55q3Ro66yXWi9rsEddeEN4?si=a399a11a81d9484c",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/zbKQPqs-cqc?si=cxggDBWbbB25cY7O",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "ZFBS": {
+                        "name": "Frygisk mode eks 3",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/78m5YarfdWeMtlVyMVC2Mm?si=023f83889ac44f72",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/Z-cEyiM9adE?si=7tIH33LWkR70GsLh",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "6QJD": {
+                        "name": "Pål sine høner i 7 modi",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_11_Paal_sine_hoener_modal.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "STAZ": {
+                        "name": "Pentaton skotsk trad",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_12_auld_lang_syne.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "LSO5": {
+                        "name": "Pentaton kinesisk trad",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/7wShJWtHf4XQZoFAalPVQl?si=18eff21cb8554b6f",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/st09A_zjHtI?si=nj-Dc_exFu5LOX7N",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "AFFD": {
+                        "name": "Blues skala",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_6_13_blues_skala.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "Q71P": {
+                        "name": "Heltone skala (Monk)",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/2CeetB0z7YBmb9a0y5RDGE?si=bad135aa37c444ce",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/7x6f8D8_WqU?si=PZYAxeIjRwAX9fOX",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "1QEY": {
+                        "name": "Halv-heltoneskala (Stravinsky)",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/1e8d0rZaaEZCxOndFlLqYf?si=45b7d62550254e24",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/YyqLnP0hOnI?si=bAm5Fnh1HuHeyzar&t=240",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "FF7K": {
+                        "name": "Oppgave 6.1.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.1.1_tonalsenter1.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "N9AP": {
+                        "name": "Oppgaver 6.1.1 - 6.2.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverPDF_6.1.1_6.2.1_skalaoppbygging.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "RNZV": {
+                        "name": "Oppgave 6.1.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.1.2_tonalsenter2.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "H50U ": {
+                        "name": "Oppgave 6.2.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.2.1_melodi_til_skala1.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "DP7B": {
+                        "name": "Oppgave 6.2.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.2.2_melodi_til_skala2.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "QNZ1": {
+                        "name": "Oppgaver 6.3.1 - 6.5.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_6.3.1_6.5.1_tonearter.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "OU56": {
+                        "name": "Kvintsirkel og matriser",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_Tonalitet_Matriser_Kvintsirkel.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "9WVI": {
+                        "name": "Oppgaver 6.8.1 - 6.8.4",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_6.8.1_6.8.4_moder.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "MA05": {
+                        "name": "Oppgave 6.8.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.8.2_identifiser_skalaer.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "A1K3": {
+                        "name": "Oppgave 6.8.3",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.8.3_mikrokosmos1.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "QRQP": {
+                        "name": "Oppgave 6.8.4",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaverMP4_6.8.4_mikrokosmos2.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap7": {
+        "name": "Akkorder",
+        "sections": {
+            "Section701": {
+                "name": "",
+                "songs": {
+                    "2KNG": {
+                        "name": "4 typer treklang",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_01_dur_moll_fortørret_forminsket.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "VPBR": {
+                        "name": "Akkordspredning",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_02_akkordspredning.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "EXDV": {
+                        "name": "Brutte treklanger",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_03_brutte_treklanger.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "BEZS": {
+                        "name": "Kadenser",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_04_kadenser.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "D572": {
+                        "name": "Tonal kadens",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_05_tonal_kadens.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "9ON0": {
+                        "name": "Dominantseptimakkord",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_7_06_dominantseptimakkord.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "Z5KI": {
+                        "name": "Oppgaver. 7.2.1 - 7.3.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_7.2.1_7.3.2_akkorder.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    },
+                    "0B09": {
+                        "name": "Oppgave 7.2.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.2.1_dur_moll_treklanger_1.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "H245": {
+                        "name": "Oppgave 7.2.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.2.2_dur_moll_treklanger_2.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "IP8D": {
+                        "name": "Oppgave 7.2.4",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.2.4_treklang_melodi.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "5RT7": {
+                        "name": "Oppgave 7.2.5",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.2.5_bluebell_polka.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "CWZD": {
+                        "name": "Oppgave 7.3.1",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.3.1_funksjoner_1.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "MSTA": {
+                        "name": "Oppgave 7.3.2",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/OppgaveMP4_7.3.2_funksjoner_2.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Kap8": {
+        "name": "Tegn og uttrykk",
+        "sections": {
+            "Section801": {
+                "name": "",
+                "songs": {
+                    "DCS0": {
+                        "name": "Chopin Ballade Nr 1 op 23",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "3LVK": {
+                        "name": "Buer",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_01_buer.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "GEE5": {
+                        "name": "Fraseringsbuer",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_02_buer_mozart.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "BYFS": {
+                        "name": "Artikulasjon (Bartok  Op. 6)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/2iaprGXqViY?si=xZj2vTfih9_JTri0",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "MAW2": {
+                        "name": "Legato og non legato",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_03_artikulasjon.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "NDT5": {
+                        "name": "Crescendo diminuendo",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_04_cresc_dim.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "O0KO": {
+                        "name": "Dynamikktegn",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_05_dynamikktegn.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "Z9OC": {
+                        "name": "Crescendo og diminuende. (Raske endringer)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/by4khgR7Q5k?si=cP-G9qMpJ13pEteN",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "LZHO": {
+                        "name": "Crescendo (poco a poco)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/3SJJynLJmes?si=k2QS7BKJXNhHv_X9&t=881",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "1TOY": {
+                        "name": "Crescendo (poco a poco)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/JCh05EUskBU?si=6NjrtXIiN-p04cY0&t=0",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "V2EG": {
+                        "name": "Crescendo (poco a poco)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/faN0kPOQykM?si=5Lv0JAIBYJyZQOY5&t=0",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "EQEN": {
+                        "name": "Diminuendo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/yyfb_wZ3Bag?si=Qp0WVTmsuVcKOLYN&t=1654",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "FX9U": {
+                        "name": "Diminuendo (poco a poco)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/WNxKZpLDxkM?si=IDoQCrZSF6jOM2O6&t=0",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "R986": {
+                        "name": "Adagio",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/ajaMdRv0IK0?si=G0PgHut5whOyQrie",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/1emdMnglWKwMS8XitagHzT?si=843a956e86a24087",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "S453": {
+                        "name": "Grave",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/-x3FJaif4cA?si=XYWXcN2uQ8PzkWtB&t=7",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/12K7TD1T5YcGYtFbceLybv?si=f8ec077b43ca4922",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "2WE5": {
+                        "name": "Largo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/m4OrdMJ3Iyo?si=6xu3PLUW3iCoyN6F&t=583",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/7u3iE4RCyuj1QVb1EGty28?si=0dcb1ca84f484e26",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "GDJR": {
+                        "name": "Larghetto",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/rrwJiT1ksps?si=U8yGpny3p-TnQiZo&t=854",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/32xner6nUzzIaI773FcSDN?si=a8cb4afa50394498",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "3OPO": {
+                        "name": "Lento",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/-r5H7sGkI7k?si=y4vGIB7oHRkY_Ql-&t=12",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/7o5lsn5XgjgkT310UhBPWl?si=dda078719b4042cf",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "HFML": {
+                        "name": "Allegretto",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/fciaxuZY6zA?si=1vflckWOvKWe_F70&t=1322",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/14JNiNY7BLqStfV6yGZa5E?si=37bce11f27744042",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "8V8X": {
+                        "name": "Allegro",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/l7J7L53b8U0?si=2ZgXx28gWCfjPyeV&t=1059",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/5w7cDT18Nlraxm4pjZrI8r?si=62b9b7950d134d6b",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "W276": {
+                        "name": "Presto",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/5b4-rXhKpMM?si=PYl-RrMCVv04xgnr&t=1082",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/4LIxDUJ0e8BVpVkwliUcj2?si=2febae9f6b2545c5",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "PG6W": {
+                        "name": "Prestissimo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/cSvSOWbNNMI?si=IXab67GI7fZVnVbS&t=876",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/11UUh15tuIo01C20bWPGp8?si=c49b492a26424a35",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "L84L": {
+                        "name": "Andante",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/8TDtC5TvNoM?si=U7WoFz5elSIt9T9n",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/0VYNioqNRTj8NfrPilmWtj?si=3a8a9adf657443fb",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "O1L5": {
+                        "name": "Andantino",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/2QG6mf7EOSg?si=IXjjRlD7HPeK_Wjc",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/6GvwE5PHLcHCUJyY6SJpi5?si=9a167cd59ee94699",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "MSD2": {
+                        "name": "Moderato",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/d7ddJ4Tx7Js?si=N_r815DhROE7aVn8",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/7staad9eqX2BbnJBQ8m9tc?si=f4929b88d9634928",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "J9O9": {
+                        "name": "Agitato",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/ESHhp1sHl80?si=-alPZ8gzMdhKwzpI&t=213",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/0aWL1HPjQDlLVwvNgw7sZD?si=4846c891f4cd45e3",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "ALC8": {
+                        "name": "Appasionata",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/phygv_Et9sQ?si=AKFTsx-PPmoZrA48&t=4",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/17TfU2JKXPdzcK7rMwpQOi?si=511ed294df2b446b",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "KN6S": {
+                        "name": "Cantabile",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/2oFqQ-CYxZc?si=3kJ6l0nNWXwUYuds&t=8",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/5Mo83AxlTzrGpkERKjnmZg?si=04c8340801c344e3",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "F64N": {
+                        "name": "Capriccioso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/4UUX-tYPDhg?si=N7GcFcpqX9A3Xj4D",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/6jnhLpA6LtABoQridFxYpW?si=5f9b6c445c5a4013",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "YC2Y": {
+                        "name": "Con brio",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/os4N-dR7CuY?si=c52Jgzz0kCYg6dci&t=486",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/1bzIVMHVaRg1RMmoKQRqtQ?si=612c2985be2049b2",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "SQZ6": {
+                        "name": "Con fuoco",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/RHebtt6JPu4?si=nFHQNEWoWY2MtoOJ&t=457",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/4MpxVbswZyqhNv4q1rRnxu?si=398bea915582455e",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "ZVPP": {
+                        "name": "Dolce",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/0UhnfWzOCMo?si=0lSMisXgs3V9jOKp&t=549",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/558tCnZEEtAurs2ef4z2pq?si=f63afe62ffd244db",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "FFTG": {
+                        "name": "Doloroso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/7aLF-1tJgJw?si=jaUq5VXk35jied0u&t=267",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/568mpeGMaUzIYpAiRrJxFQ?si=24155a3b6c1346af",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "QWY7": {
+                        "name": "Espressivo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/TjQb4-03ojk?si=XAGz75BGU4mfWR-y",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/2yklHsegVYjGZjGhsuaTUa?si=d60e7e895fc449e0",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "DN0H": {
+                        "name": "Giocoso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/4hBMEahqqgM?si=eoTI-gHLAe9-wqY8&t=484",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/02dZVjov4rOspwpw0V59TV?si=d7e741b05dd5482f",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "LS0S": {
+                        "name": "Grazioso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/Vh49bRLym-Y?si=VmEdFAj4RpHeD6oU&t=394",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/29Cil7FHMU7JzdHc2ZDZLJ?si=0376b58e3edc4a2c",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "OACS": {
+                        "name": "Impetuoso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/ulrKcPZU9Es?si=GDfuKeLf81n7_jYE&t=982",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/7JxxT43y0RFSWLmgSIpNDf?si=a1ee82ad0a2642ab",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "CJ6L": {
+                        "name": "Leggiero",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/r9JpKXBw5Z4?si=45kFysdusb-bst2T&t=863",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/20jjHtgXYIhF51q5a8SztT?si=c71b47389b454fa9",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "IGDT": {
+                        "name": "Maestoso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/-61NhyA3izc?si=C7vv7rrGJ4Bcp19B&t=1658",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/1li5uDduwFLRfDmS8BE1kJ?si=a97a770618d94e93",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "6RJX": {
+                        "name": "Mosso",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/QLbj2wURl6k?si=w3i8q3qyuet4YSkB&t=247",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/4afIK3Z6ExPGIe3xLiSCpP?si=bbd38d1040b7418c",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "4VN7": {
+                        "name": "Scherzando",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/qD5rklZehrw?si=yor8A3VTHbW3lqIu&t=1506",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/2nCyKiQUCI4XqIP9w4wgYZ?si=abdaf14ba07647b8",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "JBN1": {
+                        "name": "Semplice",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/Zjy5TjR3D1c?si=khYSv04Ld0-w4eef&t=958",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/2s4BJHKikC7nVROrIc8mns?si=5a4c00eab88d4401",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "NCM8": {
+                        "name": "Tranquillo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/BunczhLlJAo?si=Bm2V0CmvasnM6zks&t=2",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/011T7XdfwzlgLSytJBVV19?si=b63240ccf43142b1",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "OB30": {
+                        "name": "Vivace",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/ixpfgm_xxSE?si=mJvj6O4KzP6ubVCL&t=916",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/0zauwmbTZ0EgIi30KgeaNW?si=d010dcd8f0214233",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "OZI2": {
+                        "name": "Sotto voce",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/m5FXV1zrNh4?si=lG6glj6SlUUYWRqR&t=1398",
+                                "type": "youtube"
+                            },
+                            {
+                                "url": "https://open.spotify.com/track/1f9INE3upWBEyjwPNuBlZa?si=348c368554264414",
+                                "type": "spotify"
+                            }
+                        ]
+                    },
+                    "78NJ": {
+                        "name": "Rallantando, Ritardando",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/AhFfuLqoiUI?si=ELZPOpEyOjhQxb5k&t=2675",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "YJ2H": {
+                        "name": "Allargando",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/RauemJWOicI?si=jHRU78TbMVnmsVLA&t=757",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "632W": {
+                        "name": "Accelerando, stretto, stringendo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/pPLXNmKvLBQ?si=FiVouY4jBpMmhMKO",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "R2PM": {
+                        "name": "Accelerando, stretto, stringendo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/yKl4T5BnhOA?si=GLo3r2HrHtKfc3-c&t=1677",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "DZR0": {
+                        "name": "Accelerando, stretto, stringendo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/GQTKedSt4C4?si=PDVCKTGglY95OX2H&t=161",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "43LO": {
+                        "name": "Ornamentikk",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_8_06_ornamentikk.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
+                    "SBCX": {
+                        "name": "Barokk ornamentikk (Bach)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/yMTBrHm3FS8?si=lnUtngowQ2qUnPqj&t=0",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "4NZ7": {
+                        "name": "Barokk ornamentikk (Couperin)",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/RmdlIpZBuqs?si=g2IAGRefnTvQpa5V",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "CMGS": {
+                        "name": "Oppgave 8.5.1 bestemme tempo",
+                        "links": [
+                            {
+                                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "7MTR": {
+                        "name": "Oppgave 8.7.1 Chopin partitur",
+                        "links": [
+                            {
+                                "url": "media/opptakt/pdf/OppgaverPDF_8.7.1_chopin_op23_nr_ 1.pdf",
+                                "type": "pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     }
-  },
-  "Kap2": {
-    "name": "Noteverdier",
-    "sections": {
-      "Section201": {
-        "name": "",
-        "songs": {
-          "39RC": {
-            "name": "Noteverdier",
-            "links": [
-              {
-                "url": "media/samstemt/video/2-noteverdier.mp4",
-                "type": "video"
-              }
-            ]
-          },
-          "YXON": {
-            "name": "Straight-Swing",
-            "links": [
-              {
-                "url": "/media/opptakt/video/2-straight og swing.mp4",
-                "type": "video"
-              }
-            ]
-          },
-          "7A5S": {
-            "name": "Straight-Swing i rask tempo",
-            "links": [
-              {
-                "url": "/media/opptakt/video/2-straight og swing rask tempo.mp4",
-                "type": "video"
-              }
-            ]
-          },
-          "PDZA": {
-            "name": "Oppgave: Varierende grad av swing",
-            "links": [
-              {
-                "url": "https://open.spotify.com/playlist/4qUOavMmYWV7hloW9VDdsp?si=3248058f33a7406f",
-                "type": "spotify"
-              },
-              {
-                "url": "https://youtube.com/playlist?list=PLsL_rLcySkatDm-iWRxV4u3yIIutVP_On&si=f-rMBQcr0G8BxXz5",
-                "type": "youtube"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap3": {
-    "name": "Fortegn",
-    "sections": {
-      "Section201": {
-        "name": "",
-        "songs": {
-          "1I68": {
-            "name": "Test",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 3.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap4": {
-    "name": "Takt",
-    "sections": {
-      "Section401": {
-        "name": "",
-        "songs": {
-          "FRLY": {
-            "name": "Test",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap5": {
-    "name": "Intervaller",
-    "sections": {
-      "Section501": {
-        "name": "",
-        "songs": {
-          "SPVD": {
-            "name": "Test",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap6": {
-    "name": "Tonalitet",
-    "sections": {
-      "Section601": {
-        "name": "",
-        "songs": {
-          "1JA5": {
-            "name": "Test",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap7": {
-    "name": "Akkorder",
-    "sections": {
-      "Section701": {
-        "name": "",
-        "songs": {
-          "9BHR": {
-            "name": "Test",
-            "links": [
-              {
-                "url": "media/opptakt/pdf/Oppgave 4.01.pdf",
-                "type": "pdf"
-              }
-            ]
-          }
-        }
-      }
-    }
-  },
-  "Kap8": {
-    "name": "Tegn og uttrykk",
-    "sections": {
-      "Section801": {
-        "name": "Artikulasjon og dynamikk",
-        "songs": {
-          "D3MF": {
-            "name": "Tegn og symboler",
-            "links": [
-              {
-                "url": "https://youtu.be/2iaprGXqViY?si=xZj2vTfih9_JTri0&t=1",
-                "type": "youtube"
-              }
-            ]
-          }
-        }
-      },
-      "Section802 ": {
-        "name": "Styrkeendringer",
-        "songs": {
-          "SHR3": {
-            "name": "Raske endringer",
-            "links": [
-              {
-                "url": "https://youtu.be/2iaprGXqViY?si=xZj2vTfih9_JTri0&t=1",
-                "type": "youtube"
-              }
-            ]
-          },
-          "5VFA": {
-            "name": "Gradvis crescendo (poco a poco) Beethoven",
-            "links": [
-              {
-                "url": "https://youtu.be/3SJJynLJmes?si=k2QS7BKJXNhHv_X9&t=881",
-                "type": "youtube"
-              }
-            ]
-          },
-          "ZFEJ": {
-            "name": "Gradvis crescendo Ellington ",
-            "links": [
-              {
-                "url": "https://youtu.be/JCh05EUskBU?si=6NjrtXIiN-p04cY0&t=1",
-                "type": "youtube"
-              }
-            ]
-          },
-          "JYYQ": {
-            "name": "Gradvis crescendo fra Royal Wedding ",
-            "links": [
-              {
-                "url": "https://youtu.be/faN0kPOQykM?si=5Lv0JAIBYJyZQOY5&t=1",
-                "type": "youtube"
-              }
-            ]
-          },
-          "2BOI": {
-            "name": "Gradvis diminuendo Sibelius",
-            "links": [
-              {
-                "url": "https://youtu.be/yyfb_wZ3Bag?si=Qp0WVTmsuVcKOLYN&t=1654",
-                "type": "youtube"
-              }
-            ]
-          },
-          "2CI1": {
-            "name": "Gradvis diminuendo Ellington",
-            "links": [
-              {
-                "url": "https://youtu.be/WNxKZpLDxkM?si=IDoQCrZSF6jOM2O6&t=1",
-                "type": "youtube"
-              }
-            ]
-          }
-        }
-      },
-      "Section803": {
-        "name": "Tempobetgnelser",
-        "songs": {
-          "SLKK": {
-            "name": "Adagio",
-            "links": [
-              {
-                "url": "https://youtu.be/ajaMdRv0IK0?si=G0PgHut5whOyQrie",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/1emdMnglWKwMS8XitagHzT?si=843a956e86a24087",
-                "type": "spotify"
-              }
-            ]
-          },
-          "WNYY": {
-            "name": "Grave",
-            "links": [
-              {
-                "url": "https://youtu.be/-x3FJaif4cA?si=dOzPkFGJDTYNyt5N&t=7",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/12K7TD1T5YcGYtFbceLybv?si=f8ec077b43ca4922",
-                "type": "spotify"
-              }
-            ]
-          },
-          "JX64": {
-            "name": "Largo",
-            "links": [
-              {
-                "url": "https://youtu.be/m4OrdMJ3Iyo?si=6xu3PLUW3iCoyN6F&t=583",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/7u3iE4RCyuj1QVb1EGty28?si=0dcb1ca84f484e26",
-                "type": "spotify"
-              }
-            ]
-          },
-          "Y5GY": {
-            "name": "Larghetto",
-            "links": [
-              {
-                "url": "https://youtu.be/rrwJiT1ksps?si=U8yGpny3p-TnQiZo&t=854",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/32xner6nUzzIaI773FcSDN?si=a8cb4afa50394498",
-                "type": "spotify"
-              }
-            ]
-          },
-          "EYV0": {
-            "name": "Lento",
-            "links": [
-              {
-                "url": "https://youtu.be/-r5H7sGkI7k?si=y4vGIB7oHRkY_Ql-&t=10",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/7o5lsn5XgjgkT310UhBPWl?si=dda078719b4042cf",
-                "type": "spotify"
-              }
-            ]
-          },
-          "2VFQ": {
-            "name": "Allegretto",
-            "links": [
-              {
-                "url": "https://youtu.be/fciaxuZY6zA?si=1vflckWOvKWe_F70&t=1322",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/14JNiNY7BLqStfV6yGZa5E?si=37bce11f27744042",
-                "type": "spotify"
-              }
-            ]
-          },
-          "JSZK": {
-            "name": "Allegro",
-            "links": [
-              {
-                "url": "https://youtu.be/l7J7L53b8U0?si=2ZgXx28gWCfjPyeV&t=1059",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/5w7cDT18Nlraxm4pjZrI8r?si=62b9b7950d134d6b",
-                "type": "spotify"
-              }
-            ]
-          },
-          "T9UR": {
-            "name": "Presto",
-            "links": [
-              {
-                "url": "https://youtu.be/5b4-rXhKpMM?si=PYl-RrMCVv04xgnr&t=1082",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/4LIxDUJ0e8BVpVkwliUcj2?si=2febae9f6b2545c5",
-                "type": "spotify"
-              }
-            ]
-          },
-          "F80Z": {
-            "name": "Prestissimo",
-            "links": [
-              {
-                "url": "https://youtu.be/cSvSOWbNNMI?si=IXab67GI7fZVnVbS&t=876",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/11UUh15tuIo01C20bWPGp8?si=c49b492a26424a35",
-                "type": "spotify"
-              }
-            ]
-          },
-          "IGLC": {
-            "name": "Andante",
-            "links": [
-              {
-                "url": "https://youtu.be/8TDtC5TvNoM?si=U7WoFz5elSIt9T9n",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/0VYNioqNRTj8NfrPilmWtj?si=3a8a9adf657443fb",
-                "type": "spotify"
-              }
-            ]
-          },
-          "4JXI": {
-            "name": "Andantino",
-            "links": [
-              {
-                "url": "https://youtu.be/5I4EbVrTU_I?si=KdtnIf8XEyJFRVsV&t=649",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/3iABJeCzRtYOktNS5GUTn8?si=dda191a772a54f36",
-                "type": "spotify"
-              }
-            ]
-          },
-          "QSJA": {
-            "name": "Moderato",
-            "links": [
-              {
-                "url": "https://youtu.be/d7ddJ4Tx7Js?si=N_r815DhROE7aVn8",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/7staad9eqX2BbnJBQ8m9tc?si=f4929b88d9634928",
-                "type": "spotify"
-              }
-            ]
-          }
-        }
-      },
-      "Section804": {
-        "name": "Karakterord",
-        "songs": {
-          "JP2D": {
-            "name": "Agitato",
-            "links": [
-              {
-                "url": "https://youtu.be/ESHhp1sHl80?si=-alPZ8gzMdhKwzpI&t=213",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/0aWL1HPjQDlLVwvNgw7sZD?si=4846c891f4cd45e3",
-                "type": "spotify"
-              }
-            ]
-          },
-          "0H94": {
-            "name": "Appasionata",
-            "links": [
-              {
-                "url": "https://youtu.be/phygv_Et9sQ?si=AKFTsx-PPmoZrA48&t=4",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/17TfU2JKXPdzcK7rMwpQOi?si=511ed294df2b446b",
-                "type": "spotify"
-              }
-            ]
-          },
-          "PQ82": {
-            "name": "Cantabile",
-            "links": [
-              {
-                "url": "https://youtu.be/2oFqQ-CYxZc?si=3kJ6l0nNWXwUYuds&t=8",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/5Mo83AxlTzrGpkERKjnmZg?si=04c8340801c344e3",
-                "type": "spotify"
-              }
-            ]
-          },
-          "69WN": {
-            "name": "Capriccioso",
-            "links": [
-              {
-                "url": "https://youtu.be/4UUX-tYPDhg?si=N7GcFcpqX9A3Xj4D",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/6jnhLpA6LtABoQridFxYpW?si=5f9b6c445c5a4013",
-                "type": "spotify"
-              }
-            ]
-          },
-          "MGME": {
-            "name": "Con brio",
-            "links": [
-              {
-                "url": "https://youtu.be/os4N-dR7CuY?si=c52Jgzz0kCYg6dci&t=486",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/1bzIVMHVaRg1RMmoKQRqtQ?si=612c2985be2049b2",
-                "type": "spotify"
-              }
-            ]
-          },
-          "KKQL": {
-            "name": "Con fuoco",
-            "links": [
-              {
-                "url": "https://youtu.be/RHebtt6JPu4?si=nFHQNEWoWY2MtoOJ&t=457",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/4MpxVbswZyqhNv4q1rRnxu?si=398bea915582455e",
-                "type": "spotify"
-              }
-            ]
-          },
-          "Q86O": {
-            "name": "Dolce",
-            "links": [
-              {
-                "url": "https://youtu.be/0UhnfWzOCMo?si=0lSMisXgs3V9jOKp&t=549",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/558tCnZEEtAurs2ef4z2pq?si=f63afe62ffd244db",
-                "type": "spotify"
-              }
-            ]
-          },
-          "I80M": {
-            "name": "Doloroso",
-            "links": [
-              {
-                "url": "https://youtu.be/7aLF-1tJgJw?si=jaUq5VXk35jied0u&t=267",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/568mpeGMaUzIYpAiRrJxFQ?si=24155a3b6c1346af",
-                "type": "spotify"
-              }
-            ]
-          },
-          "YLIQ": {
-            "name": "Espressivo",
-            "links": [
-              {
-                "url": "https://youtu.be/TjQb4-03ojk?si=XAGz75BGU4mfWR-y",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/2yklHsegVYjGZjGhsuaTUa?si=d60e7e895fc449e0",
-                "type": "spotify"
-              }
-            ]
-          },
-          "HCMA": {
-            "name": "Giocoso",
-            "links": [
-              {
-                "url": "https://youtu.be/4hBMEahqqgM?si=eoTI-gHLAe9-wqY8&t=484",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/02dZVjov4rOspwpw0V59TV?si=d7e741b05dd5482f",
-                "type": "spotify"
-              }
-            ]
-          },
-          "0I5X": {
-            "name": "Grazioso",
-            "links": [
-              {
-                "url": "https://youtu.be/Vh49bRLym-Y?si=VmEdFAj4RpHeD6oU&t=394",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/29Cil7FHMU7JzdHc2ZDZLJ?si=0376b58e3edc4a2c",
-                "type": "spotify"
-              }
-            ]
-          },
-          "454I": {
-            "name": "Impetuoso",
-            "links": [
-              {
-                "url": "https://youtu.be/ulrKcPZU9Es?si=GDfuKeLf81n7_jYE&t=982",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/7JxxT43y0RFSWLmgSIpNDf?si=a1ee82ad0a2642ab",
-                "type": "spotify"
-              }
-            ]
-          },
-          "458Y": {
-            "name": "Leggiero",
-            "links": [
-              {
-                "url": "https://youtu.be/r9JpKXBw5Z4?si=45kFysdusb-bst2T&t=863",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/20jjHtgXYIhF51q5a8SztT?si=c71b47389b454fa9",
-                "type": "spotify"
-              }
-            ]
-          },
-          "LFAF": {
-            "name": "Maestoso",
-            "links": [
-              {
-                "url": "https://youtu.be/-61NhyA3izc?si=C7vv7rrGJ4Bcp19B&t=1658",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/1li5uDduwFLRfDmS8BE1kJ?si=a97a770618d94e93",
-                "type": "spotify"
-              }
-            ]
-          },
-          "ZJBH": {
-            "name": "Mosso",
-            "links": [
-              {
-                "url": "https://youtu.be/QLbj2wURl6k?si=w3i8q3qyuet4YSkB&t=247",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/4afIK3Z6ExPGIe3xLiSCpP?si=bbd38d1040b7418c",
-                "type": "spotify"
-              }
-            ]
-          },
-          "HEHM": {
-            "name": "Scherzando",
-            "links": [
-              {
-                "url": "https://youtu.be/qD5rklZehrw?si=yor8A3VTHbW3lqIu&t=1506",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/2nCyKiQUCI4XqIP9w4wgYZ?si=abdaf14ba07647b8",
-                "type": "spotify"
-              }
-            ]
-          },
-          "ZD6T": {
-            "name": "Semplice",
-            "links": [
-              {
-                "url": "https://youtu.be/Zjy5TjR3D1c?si=khYSv04Ld0-w4eef&t=958",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/2s4BJHKikC7nVROrIc8mns?si=5a4c00eab88d4401",
-                "type": "spotify"
-              }
-            ]
-          },
-          "QWIL": {
-            "name": "Sotto voce (fra takt 8)",
-            "links": [
-              {
-                "url": "https://youtu.be/m5FXV1zrNh4?si=lG6glj6SlUUYWRqR&t=1398",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/1f9INE3upWBEyjwPNuBlZa?si=348c368554264414",
-                "type": "spotify"
-              }
-            ]
-          },
-          "WW1G": {
-            "name": "Tranquillo",
-            "links": [
-              {
-                "url": "https://youtu.be/BunczhLlJAo?si=Bm2V0CmvasnM6zks&t=2",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/011T7XdfwzlgLSytJBVV19?si=b63240ccf43142b1",
-                "type": "spotify"
-              }
-            ]
-          },
-          "25NB": {
-            "name": "Vivace",
-            "links": [
-              {
-                "url": "https://youtu.be/ixpfgm_xxSE?si=mJvj6O4KzP6ubVCL&t=916https://youtu.be/BunczhLlJAo?si=Bm2V0CmvasnM6zks&t=2",
-                "type": "youtube"
-              },
-              {
-                "url": "https://open.spotify.com/track/011T7XdfwzlgLSytJBVV19?si=b63240ccf43142b1",
-                "type": "spotify"
-              }
-            ]
-          }
-        }
-      },
-      "Section805": {
-        "name": "Dummy",
-        "songs": {
-          "zzzz": {
-            "name": "",
-            "links": [
-              {
-                "url": 1,
-                "type": "youtube"
-              },
-              {
-                "url": 2,
-                "type": "spotify"
-              }
-            ]
-          }
-        }
-      }
-    }
-  }
 }
