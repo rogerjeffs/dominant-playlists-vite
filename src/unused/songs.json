@@ -1,14 +1,5 @@
 {
-    "DCS0": {
-        "name": "Chopin Ballade Nr 1 op 23",
-        "links": [
-            {
-                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
-                "type": "youtube"
-            }
-        ]
-    },
-    "3LVK": {
+        "3LVK": {
         "name": "Buer",
         "links": [
             {
@@ -606,6 +597,15 @@
     },
     "CMGS": {
         "name": "Oppgave 8.5.1 bestemme tempo",
+        "links": [
+            {
+                "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
+                "type": "youtube"
+            }
+        ]
+    },
+    "DCS0": {
+        "name": "Chopin Ballade Nr 1 op 23",
         "links": [
             {
                 "url": "https://youtu.be/VmFmAvwO1pE?si=KUoVFSiEGS2ELHKS",
