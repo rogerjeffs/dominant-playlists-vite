@@ -1,10 +1,20 @@
 {
+    
     "Kap1": {
         "name": "Notesystemet",
         "sections": {
             "Section101": {
                 "name": "",
                 "songs": {
+                    "NQCR": {
+                        "name": "Introduksjonsvideo",
+                        "links": [
+                            {
+                                "url": "media/opptakt/video/Opptakt_forord.mp4",
+                                "type": "video"
+                            }
+                        ]
+                    },
                     "2NVA": {
                         "name": "Trommesett demo  ",
                         "links": [
