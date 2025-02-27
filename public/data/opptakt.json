@@ -691,6 +691,32 @@
                                 "type": "video"
                             }
                         ]
+                    },
+                    "5F5F": {
+                        "name": "Oppgave 6.8.5",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/6I0BNA8vvGSXztFCwVfdjn?si=9d7938c51a924fa8",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/0lz8z7E-JDU?si=9I3llUcp_zgr-agK",
+                                "type": "youtube"
+                            }
+                        ]
+                    },
+                    "MT2G": {
+                        "name": "Oppgave 6.8.6",
+                        "links": [
+                            {
+                                "url": "https://open.spotify.com/track/4kHvK9PDcxVyZeIrOk7Tdw?si=0e1d1e37de7247ed",
+                                "type": "spotify"
+                            },
+                            {
+                                "url": "https://youtu.be/Ub42kTzRAyg?si=Zg8TIfKr12iia82N",
+                                "type": "youtube"
+                            }
+                        ]
                     }
                 }
             }
